@@ -1,0 +1,2297 @@
+###########
+# MEKANISM
+###########
+
+# Додано для вікна вибору кольору модуля
+gui.mekanism.color_picker=Вибір кольору
+gui.mekanism.close=Закрити
+gui.mekanism.rgb=RGB:
+gui.mekanism.rgba=RGBA:
+generic.mekanism.hex=#%s
+module.mekanism.color=Колір ARGB
+
+# Items
+tile.ObsidianTNT.name=Обсидіановий динаміт
+item.EnrichedAlloy.name=Збагачений сплав
+item.ReinforcedAlloy.name=Зміцнений сплав
+item.AtomicAlloy.name=Атомний сплав
+item.EnergyTablet.name=Енергетичний планшет
+item.SpeedUpgrade.name=Покращення швидкості
+item.EnergyUpgrade.name=Покращення енергії
+item.FilterUpgrade.name=Покращення фільтрації
+item.MufflingUpgrade.name=Покращення глушіння
+item.GasUpgrade.name=Покращення газу
+item.AnchorUpgrade.name=Покращення якоря
+item.StoneGeneratorUpgrade.name=Покращення генератора каменю
+item.ThreadUpgrade.name=Покращення потоків
+item.Robit.name=Робіт
+item.AtomicDisassembler.name=Атомний розбирач
+item.ElectricBow.name=Електричний лук
+item.EnrichedIron.name=Збагачене залізо
+item.CompressedCarbon.name=Стиснений вуглець
+item.CompressedRedstone.name=Стиснений редстоун
+item.CompressedDiamond.name=Стиснений алмаз
+item.CompressedObsidian.name=Стиснений обсидіан
+item.PortableTeleporter.name=Портативний телепортер
+item.TeleportationCore.name=Ядро телепортації
+item.Configurator.name=Конфігуратор
+item.NetworkReader.name=Зчитувач мережі
+item.WalkieTalkie.name=Рація
+item.Jetpack.name=Реактивний ранець
+item.ScubaTank.name=Балон для дайвінгу
+item.GasMask.name=Протигаз
+item.Dictionary.name=Словник
+item.ElectrolyticCore.name=Електролітичне ядро
+item.Sawdust.name=Тирса
+item.Salt.name=Сіль
+item.BrineBucket.name=Відро ропи
+item.LithiumBucket.name=Відро літію
+item.HeavyWaterBucket.name=Відро важкої води
+item.FreeRunners.name=Вільні бігуни
+item.ArmoredFreeRunners.name=Броньовані вільні бігуни
+item.ArmoredJetpack.name=Броньований реактивний ранець
+item.ConfigurationCard.name=Карта конфігурації
+item.SeismicReader.name=Сейсмічний зчитувач
+item.hdpe_pellet.name=Гранула HDPE
+item.hdpe_rod.name=Стрижень HDPE
+item.hdpe_sheet.name=Лист HDPE
+item.hdpe_stick.name=Пластикова палиця
+item.Substrate.name=Субстрат
+item.Flamethrower.name=Вогнемет
+item.GaugeDropper.name=Вимірювальна піпетка
+item.BioFuel.name=Біопаливо
+item.CraftingFormula.name=Формула крафту
+item.Canteen.name=Фляга
+item.CosmicAlloy.name=Космічний сплав
+
+# Control Circuits
+item.BasicControlCircuit.name=Базова схема керування
+item.AdvancedControlCircuit.name=Просунута схема керування
+item.EliteControlCircuit.name=Елітна схема керування
+item.UltimateControlCircuit.name=Абсолютна схема керування
+item.CreativeControlCircuit.name=Творча схема керування
+
+# Gas Tank
+tile.GasTankBasic.name=Базовий газовий резервуар
+tile.GasTankAdvanced.name=Просунутий газовий резервуар
+tile.GasTankElite.name=Елітний газовий резервуар
+tile.GasTankUltimate.name=Абсолютний газовий резервуар
+tile.GasTankCreative.name=Творчий газовий резервуар
+
+# Fluid Tank
+tile.FluidTankBasic.name=Базовий рідинний резервуар
+tile.FluidTankAdvanced.name=Просунутий рідинний резервуар
+tile.FluidTankElite.name=Елітний рідинний резервуар
+tile.FluidTankUltimate.name=Абсолютний рідинний резервуар
+tile.FluidTankCreative.name=Творчий рідинний резервуар
+
+# Cardboard Box
+tile.CardboardBox.name=Картонна коробка
+
+# Bounding Block
+tile.BoundingBlock.name=Обмежувальний блок
+
+# Salt
+tile.SaltBlock.name=Блок солі
+
+# Basic Block
+tile.BasicBlock.OsmiumBlock.name=Осмієвий блок
+tile.BasicBlock.BronzeBlock.name=Бронзовий блок
+tile.BasicBlock.RefinedObsidian.name=Очищений обсидіан
+tile.BasicBlock.CharcoalBlock.name=Блок деревного вугілля
+tile.BasicBlock.RefinedGlowstone.name=Очищений світлокамінь
+tile.BasicBlock.SteelBlock.name=Сталевий блок
+tile.BasicBlock.BinBasic.name=Базовий контейнер
+tile.BasicBlock.BinAdvanced.name=Просунутий контейнер
+tile.BasicBlock.BinElite.name=Елітний контейнер
+tile.BasicBlock.BinUltimate.name=Абсолютний контейнер
+tile.BasicBlock.BinCreative.name=Творчий контейнер
+tile.BasicBlock.TeleporterFrame.name=Рама телепортера
+tile.BasicBlock.SteelCasing.name=Сталевий корпус
+tile.BasicBlock.DynamicTank.name=Динамічний резервуар
+tile.BasicBlock.StructuralGlass.name=Структурне скло
+tile.BasicBlock.DynamicValve.name=Динамічний клапан
+tile.BasicBlock.CopperBlock.name=Мідний блок
+tile.BasicBlock.TinBlock.name=Олов'яний блок
+tile.BasicBlock.ThermalEvaporationController.name=Контролер термічного випаровування
+tile.BasicBlock.ThermalEvaporationValve.name=Клапан термічного випаровування
+
+# Basic Block 2
+tile.BasicBlock2.ThermalEvaporationBlock.name=Блок термічного випаровування
+tile.BasicBlock2.InductionCasing.name=Індукційний корпус
+tile.BasicBlock2.InductionPort.name=Індукційний порт
+tile.BasicBlock2.InductionCellBasic.name=Базова індукційна комірка
+tile.BasicBlock2.InductionCellAdvanced.name=Просунута індукційна комірка
+tile.BasicBlock2.InductionCellElite.name=Елітна індукційна комірка
+tile.BasicBlock2.InductionCellUltimate.name=Абсолютна індукційна комірка
+tile.BasicBlock2.InductionProviderBasic.name=Базовий індукційний провайдер
+tile.BasicBlock2.InductionProviderAdvanced.name=Просунутий індукційний провайдер
+tile.BasicBlock2.InductionProviderElite.name=Елітний індукційний провайдер
+tile.BasicBlock2.InductionProviderUltimate.name=Абсолютний індукційний провайдер
+tile.BasicBlock2.SuperheatingElement.name=Перегріваючий елемент
+tile.BasicBlock2.PressureDisperser.name=Дисперсатор тиску
+tile.BasicBlock2.BoilerCasing.name=Корпус бойлера
+tile.BasicBlock2.BoilerValve.name=Клапан бойлера
+tile.BasicBlock2.SecurityDesk.name=Стіл безпеки
+
+# Machine Block
+tile.MachineBlock.EnrichmentChamber.name=Камера збагачення
+tile.MachineBlock.OsmiumCompressor.name=Осмієвий компресор
+tile.MachineBlock.Combiner.name=Об'єднувач
+tile.MachineBlock.Crusher.name=Дробарка
+tile.MachineBlock.Factory.name=Фабрика
+tile.MachineBlock.MetallurgicInfuser.name=Металургійний наповнювач
+tile.MachineBlock.PurificationChamber.name=Камера очищення
+tile.MachineBlock.EnergizedSmelter.name=Електрична піч
+tile.MachineBlock.Teleporter.name=Телепортер
+tile.MachineBlock.ElectricPump.name=Електрична помпа
+tile.MachineBlock.PersonalChest.name=Особиста скриня
+tile.MachineBlock.Chargepad.name=Зарядна панель
+tile.MachineBlock.LogisticalSorter.name=Логістичний сортувальник
+tile.MachineBlock.DigitalMiner.name=Цифровий шахтар
+
+# Machine Block 2
+tile.MachineBlock2.RotaryCondensentrator.name=Роторний конденсатор
+tile.MachineBlock2.ChemicalOxidizer.name=Хімічний окислювач
+tile.MachineBlock2.ChemicalInfuser.name=Хімічний наповнювач
+tile.MachineBlock2.ChemicalCombiner.name=Хімічний об'єднувач
+tile.MachineBlock2.ChemicalInjectionChamber.name=Камера хімічної ін'єкції
+tile.MachineBlock2.ElectrolyticSeparator.name=Електролітичний сепаратор
+tile.MachineBlock2.PrecisionSawmill.name=Точна пилорама
+tile.MachineBlock2.ChemicalDissolutionChamber.name=Камера хімічного розчинення
+tile.MachineBlock2.ChemicalWasher.name=Хімічний мийник
+tile.MachineBlock2.ChemicalCrystallizer.name=Хімічний кристалізатор
+tile.MachineBlock2.SeismicVibrator.name=Сейсмічний вібратор
+tile.MachineBlock2.PressurizedReactionChamber.name=Камера реакції під тиском
+tile.MachineBlock2.PressurizedReactionChamber.short.name=КРПТ
+tile.MachineBlock2.FluidicPlenisher.name=Рідинний наповнювач
+tile.MachineBlock2.Laser.name=Лазер
+tile.MachineBlock2.LaserAmplifier.name=Лазерний підсилювач
+tile.MachineBlock2.LaserTractorBeam.name=Лазерний тяговий промінь
+
+# Machine Block 3
+tile.MachineBlock3.QuantumEntangloporter.name=Квантовий заплутувач
+tile.MachineBlock3.SolarNeutronActivator.name=Сонячний активатор нейтронів
+tile.MachineBlock3.Oredictionificator.name=Уніфікатор руд
+tile.MachineBlock3.ResistiveHeater.name=Резистивний обігрівач
+tile.MachineBlock3.FormulaicAssemblicator.name=Формульний збирач
+tile.MachineBlock3.FuelwoodHeater.name=Дров'яний обігрівач
+
+# Add new machine block start
+tile.MachineBlock3.Factory.name=Фабрика
+tile.MachineBlock3.IsotopicCentrifuge.name=Ізотопна центрифуга
+tile.MachineBlock3.NutritionalLiquifier.name=Харчовий розріджувач
+tile.BasicBlock2.UraniumBlock.name=Урановий блок
+tile.BasicBlock2.LeadBlock.name=Свинцевий блок
+
+tile.BasicBlock3.SpsCasing.name=Корпус SPS (WIP)
+tile.BasicBlock3.SpsPort.name=Порт SPS (WIP)
+tile.BasicBlock3.FissionReacherCasing.name=Корпус реактора поділу (WIP)
+tile.BasicBlock3.ControlRodAssembly.name=Збірка керуючих стрижнів (WIP)
+tile.BasicBlock3.FissionFuelAssembly.name=Збірка палива поділу (WIP)
+tile.BasicBlock3.BasicEnergyCubeCraft.name=Базовий енергетичний куб - Крафт
+tile.BasicBlock3.AdvancedEnergyCubeCraft.name=Просунутий енергетичний куб - Крафт
+tile.BasicBlock3.EliteEnergyCubeCraft.name=Елітний енергетичний куб - Крафт
+tile.BasicBlock3.UltimateEnergyCubeCraft.name=Абсолютний енергетичний куб - Крафт
+tile.BasicBlock3.CreativeEnergyCubeCraft.name=Творчий енергетичний куб - Крафт
+
+tile.BasicBlock3.BasicEnergyCubeFrame.name=Рама базового енергетичного куба
+tile.BasicBlock3.AdvancedEnergyCubeFrame.name=Рама просунутого енергетичного куба
+tile.BasicBlock3.EliteEnergyCubeFrame.name=Рама елітного енергетичного куба
+tile.BasicBlock3.UltimateEnergyCubeFrame.name=Рама абсолютного енергетичного куба
+tile.BasicBlock3.CreativeEnergyCubeFrame.name=Рама творчого енергетичного куба
+tile.MachineBlock3.antiprotonicnucleosynthesizer.name=Антипротонний нуклеосинтезатор (WIP)
+gui.FusionCooling=Формула охолодження термоядерного реактора
+
+tile.OreBlock.UraniumOre.name=Уранова руда
+tile.OreBlock.LeadOre.name=Свинцева руда
+tile.OreBlock.FluoriteOre.name=Флюоритова руда
+item.dirtyUraniumDust.name=Брудний урановий пил
+item.uraniumIngot.name=Урановий злиток
+item.leadIngot.name=Свинцевий злиток
+item.uraniumNugget.name=Урановий самородок
+item.leadNugget.name=Свинцевий самородок
+gas.cleanUranium=Чиста суспензія урану
+oregas.uranium=Уранова руда
+item.uraniumDust.name=Урановий пил
+item.FluoriteClump.name=Флюорит
+item.fluoriteDust.name=Флюорит
+item.fluoritedustDust.name=Флюоритовий пил
+item.charcoalDust.name=Пил деревного вугілля
+item.PlutoniumPellet.name=Плутонієва гранула
+item.AntimatterPellet.name=Гранула антиматерії
+item.ReprocessedFissileFragment.name=Перероблений подільний фрагмент
+item.YellowCakeUranium.name=Урановий концентрат (Yellowcake)
+item.PoloniumPellet.name=Полонієва гранула
+item.uraniumClump.name=Грудочка урану
+item.uraniumShard.name=Осколок урану
+item.uraniumCrystal.name=Кристал урану
+item.EnergyTabletCraft.name=Енергетичний планшет - Крафт
+item.CosmicMatter.name=Космічна матерія
+item.Scrap.name=Брухт
+item.ScrapBox.name=Коробка з брухтом
+item.EmptyCrystals.name=Порожні кристали
+item.MekTool.name=Мека-Інструмент
+gas.uranium=Уранова суспензія
+gas.Biofuel=Біопаливо
+fluid.liquidsuperheatedsodium=Перегрітий натрій
+fluid.liquidhydrofluricacid=Рідка плавикова кислота
+tile.MachineBlock3.OrganicFarm.name=Органічна ферма
+tile.MachineBlock3.SuperchargedCoil.name=Суперзаряджена котушка (WIP)
+gas.nutrientsolution=Поживний розчин
+gas.oxygenenrichedwater=Збагачена киснем вода
+gas.unstabledimensional=Нестабільний просторовий газ
+tile.MachineBlock3.AmbientAccumulator.name=Атмосферний колектор газу
+tile.MachineBlock3.AmbientAccumulatorEnergy.name=Атмосферний колектор газу (Електричний)
+tile.MachineBlock4.Stamping.name=Штампувальний верстат з ЧПК
+tile.MachineBlock4.Rolling.name=Прокатний верстат з ЧПК
+tile.MachineBlock4.Brushed.name=Волочильний верстат з ЧПК
+tile.MachineBlock4.Turning.name=Токарний верстат з ЧПК
+tile.MachineBlock4.Alloy.name=Піч для сплавів
+tile.MachineBlock4.CellExtractor.name=Екстрактор клітин
+tile.MachineBlock4.CellSeparator.name=Сепаратор клітин
+tile.MachineBlock4.Recycler.name=Переробник
+tile.MachineBlock4.IndustrialAlarm.name=Промислова сигналізація
+tile.MachineBlock4.Void.name=Екскаватор порожнечі
+tile.MachineBlock4.Hybrid_Storage.name=Гібридне сховище (WIP)
+
+# Plastic
+tile.PlasticBlock.name=Пластиковий блок
+tile.SlickPlasticBlock.name=Гладкий пластиковий блок
+tile.GlowPlasticBlock.name=Світлопластиковий блок
+tile.ReinforcedPlasticBlock.name=Зміцнений пластиковий блок
+tile.RoadPlasticBlock.name=Пластикова дорога
+tile.PlasticFence.name=Пластиковий бар'єр
+
+# Infuse types
+infuse.carbon=Вуглець
+infuse.tin=Олово
+infuse.diamond=Алмаз
+infuse.redstone=Редстоун
+infuse.fungi=Гриби
+infuse.obsidian=Обсидіан
+infuse.bio=Біомаса
+
+# Ore Block
+tile.OreBlock.OsmiumOre.name=Осмієва руда
+tile.OreBlock.CopperOre.name=Мідна руда
+tile.OreBlock.TinOre.name=Олов'яна руда
+
+# Transmitters
+tile.Transmitter.BasicPressurizedTube.name=Базова герметична труба
+tile.Transmitter.AdvancedPressurizedTube.name=Просунута герметична труба
+tile.Transmitter.ElitePressurizedTube.name=Елітна герметична труба
+tile.Transmitter.UltimatePressurizedTube.name=Абсолютна герметична труба
+tile.Transmitter.BasicUniversalCable.name=Базовий універсальний кабель
+tile.Transmitter.AdvancedUniversalCable.name=Просунутий універсальний кабель
+tile.Transmitter.EliteUniversalCable.name=Елітний універсальний кабель
+tile.Transmitter.UltimateUniversalCable.name=Абсолютний універсальний кабель
+tile.Transmitter.BasicMechanicalPipe.name=Базова механічна труба
+tile.Transmitter.AdvancedMechanicalPipe.name=Просунута механічна труба
+tile.Transmitter.EliteMechanicalPipe.name=Елітна механічна труба
+tile.Transmitter.UltimateMechanicalPipe.name=Абсолютна механічна труба
+tile.Transmitter.BasicLogisticalTransporter.name=Базовий логістичний транспортер
+tile.Transmitter.AdvancedLogisticalTransporter.name=Просунутий логістичний транспортер
+tile.Transmitter.EliteLogisticalTransporter.name=Елітний логістичний транспортер
+tile.Transmitter.UltimateLogisticalTransporter.name=Абсолютний логістичний транспортер
+tile.Transmitter.RestrictiveTransporter.name=Обмежувальний транспортер
+tile.Transmitter.DiversionTransporter.name=Відвідний транспортер
+tile.Transmitter.BasicThermodynamicConductor.name=Базовий термодинамічний провідник
+tile.Transmitter.AdvancedThermodynamicConductor.name=Просунутий термодинамічний провідник
+tile.Transmitter.EliteThermodynamicConductor.name=Елітний термодинамічний провідник
+tile.Transmitter.UltimateThermodynamicConductor.name=Абсолютний термодинамічний провідник
+
+# Glow Panel
+tile.GlowPanel.name=Світлова панель
+
+# Energy Cubes
+tile.EnergyCubeBasic.name=Базовий енергетичний куб
+tile.EnergyCubeAdvanced.name=Просунутий енергетичний куб
+tile.EnergyCubeElite.name=Елітний енергетичний куб
+tile.EnergyCubeUltimate.name=Абсолютний енергетичний куб
+tile.EnergyCubeCreative.name=Творчий енергетичний куб
+
+# Tier Installers
+item.basicTierInstaller.name=Базовий встановлювач рівня
+item.advancedTierInstaller.name=Просунутий встановлювач рівня
+item.eliteTierInstaller.name=Елітний встановлювач рівня
+item.ultimateTierInstaller.name=Абсолютний встановлювач рівня
+item.creativeTierInstaller.name=Творчий встановлювач рівня
+
+# Dust
+item.ironDust.name=Залізний пил
+item.goldDust.name=Золотий пил
+item.osmiumDust.name=Осмієвий пил
+item.obsidianDust.name=Обсидіановий пил
+item.refinedobsidianDust.name=Очищений обсидіановий пил
+item.diamondDust.name=Алмазний пил
+item.steelDust.name=Сталевий пил
+item.copperDust.name=Мідний пил
+item.tinDust.name=Олов'яний пил
+item.silverDust.name=Срібний пил
+item.leadDust.name=Свинцевий пил
+item.sulfurDust.name=Сірчаний пил
+item.lithiumDust.name=Літієвий пил
+
+# Clumps
+item.ironClump.name=Грудочка заліза
+item.goldClump.name=Грудочка золота
+item.osmiumClump.name=Грудочка осмію
+item.copperClump.name=Грудочка міді
+item.tinClump.name=Грудочка олова
+item.silverClump.name=Грудочка срібла
+item.leadClump.name=Грудочка свинцю
+
+# Shards
+item.ironShard.name=Осколок заліза
+item.goldShard.name=Осколок золота
+item.osmiumShard.name=Осколок осмію
+item.copperShard.name=Осколок міді
+item.tinShard.name=Осколок олова
+item.silverShard.name=Осколок срібла
+item.leadShard.name=Осколок свинцю
+
+# Crystals
+item.ironCrystal.name=Кристал заліза
+item.goldCrystal.name=Кристал золота
+item.osmiumCrystal.name=Кристал осмію
+item.copperCrystal.name=Кристал міді
+item.tinCrystal.name=Кристал олова
+item.silverCrystal.name=Кристал срібла
+item.leadCrystal.name=Кристал свинцю
+
+# Dirty Dust
+item.dirtyIronDust.name=Брудний залізний пил
+item.dirtyGoldDust.name=Брудний золотий пил
+item.dirtyOsmiumDust.name=Брудний осмієвий пил
+item.dirtyCopperDust.name=Брудний мідний пил
+item.dirtyTinDust.name=Брудний олов'яний пил
+item.dirtySilverDust.name=Брудний срібний пил
+item.dirtyLeadDust.name=Брудний свинцевий пил
+
+# Ingots
+item.obsidianIngot.name=Очищений обсидіановий злиток
+item.osmiumIngot.name=Осмієвий злиток
+item.bronzeIngot.name=Бронзовий злиток
+item.glowstoneIngot.name=Злиток світлокаменю
+item.steelIngot.name=Сталевий злиток
+item.copperIngot.name=Мідний злиток
+item.tinIngot.name=Олов'яний злиток
+
+# Nuggets
+item.obsidianNugget.name=Очищений обсидіановий самородок
+item.osmiumNugget.name=Осмієвий самородок
+item.bronzeNugget.name=Бронзовий самородок
+item.glowstoneNugget.name=Самородок світлокаменю
+item.steelNugget.name=Сталевий самородок
+item.copperNugget.name=Мідний самородок
+item.tinNugget.name=Олов'яний самородок
+
+# Gasses
+gas.hydrogen=Водень
+gas.oxygen=Кисень
+gas.water=Водяна пара
+gas.chlorine=Хлор
+gas.sulfurdioxide=Діоксид сірки
+gas.sulfurtrioxide=Триоксид сірки
+gas.sulfuricacid=Сірчана кислота
+gas.hydrogenchloride=Хлороводень
+gas.liquidosmium=Рідкий осмій
+gas.ethene=Етилен
+gas.sodium=Натрій
+gas.brine=Газоподібна ропа
+gas.deuterium=Дейтерій
+gas.tritium=Тритій
+gas.lithium=Літій
+gas.fusionfuel=D-T паливо
+
+gas.iron=Залізна суспензія
+gas.gold=Золота суспензія
+gas.osmium=Осмієва суспензія
+gas.copper=Мідна суспензія
+gas.tin=Олов'яна суспензія
+gas.silver=Срібна суспензія
+gas.obsidian=Обсидіанова суспензія
+gas.lead=Свинцева суспензія
+
+gas.cleanIron=Чиста суспензія заліза
+gas.cleanGold=Чиста суспензія золота
+gas.cleanOsmium=Чиста суспензія осмію
+gas.cleanCopper=Чиста суспензія міді
+gas.cleanTin=Чиста суспензія олова
+gas.cleanSilver=Чиста суспензія срібла
+gas.cleanObsidian=Чиста суспензія обсидіану
+gas.cleanLead=Чиста суспензія свинцю
+
+# BC Fuel Gases
+gas.fuel=Випаруване паливо
+gas.oil=Випарувана нафта
+
+# add new gases
+gas.hydrofluoricacid=Плавикова кислота
+gas.antimatter=Антиматерія
+gas.fissilefuel=Подільне паливо
+gas.superheatedsodium=Перегрітий натрій
+gas.uraniumhexafluoride=Гексафторид урану
+gas.uraniumoxide=Оксид урану
+gas.nuclearwaste=Ядерні відходи
+gas.plutonium=Плутоній
+gas.polonium=Полоній
+gas.spentnuclearwaste=Відпрацьовані ядерні відходи
+gas.nutritionalpaste=Поживна паста
+
+# Colors gas
+gas.black.name=Чорний пігмент
+gas.red.name=Червоний пігмент
+gas.green.name=Зелений пігмент
+gas.brown.name=Коричневий пігмент
+gas.blue.name=Синій пігмент
+gas.purple.name=Фіолетовий пігмент
+gas.cyan.name=Бірюзовий пігмент
+gas.silver.name=Світло-сірий пігмент
+gas.gray.name=Сірий пігмент
+gas.pink.name=Рожевий пігмент
+gas.lime.name=Лаймовий пігмент
+gas.yellow.name=Жовтий пігмент
+gas.lightBlue.name=Блакитний пігмент
+gas.magenta.name=Пурпуровий пігмент
+gas.orange.name=Помаранчевий пігмент
+gas.white.name=Білий пігмент
+
+# Fluids
+fluid.liquidhydrogen=Рідкий водень
+fluid.liquidoxygen=Рідкий кисень
+fluid.liquidchlorine=Рідкий хлор
+fluid.liquidsulfurdioxide=Рідкий діоксид сірки
+fluid.liquidsulfurtrioxide=Рідкий триоксид сірки
+fluid.sulfuricacid=Сірчана кислота
+fluid.liquidhydrogenchloride=Рідкий хлороводень
+fluid.brine=Ропа
+fluid.liquidethene=Рідкий етилен
+fluid.liquidsodium=Рідкий натрій
+fluid.heavywater=Важка вода
+fluid.liquidlithium=Рідкий літій
+fluid.liquiddeuterium=Рідкий дейтерій
+fluid.liquidtritium=Рідкий тритій
+fluid.liquidfusionfuel=Рідке D-T паливо
+fluid.steam=Пара
+
+# OreGas names
+oregas.iron=Залізна руда
+oregas.gold=Золота руда
+oregas.osmium=Осмієва руда
+oregas.copper=Мідна руда
+oregas.tin=Олов'яна руда
+oregas.silver=Срібна руда
+oregas.obsidian=Обсидіанова руда
+oregas.lead=Свинцева руда
+
+# Tier names
+tier.Basic=Базовий
+tier.Advanced=Просунутий
+tier.Elite=Елітний
+tier.Ultimate=Абсолютний
+tier.Creative=Творчий
+
+# Transmission types
+transmission.Energy=Енергія
+transmission.Fluids=Рідини
+transmission.Gases=Гази
+transmission.Items=Предмети
+transmission.Heat=Тепло
+
+# Update handler text
+update.consider=Розгляньте можливість оновлення до версії
+update.newFeatures=Нові функції
+update.visit=Відвідайте
+update.toDownload=щоб завантажити
+update.devBuild=Використовується збірка розробника
+update.outdated=Використовується застаріла версія на одному або кількох модулях
+
+# Upgrades
+upgrade.energy=Енергія
+upgrade.energy.desc=Збільшує енергоефективність та місткість механізмів.
+upgrade.speed=Швидкість
+upgrade.speed.desc=Збільшує швидкість механізмів.
+upgrade.filter=Фільтр
+upgrade.filter.desc=Фільтр, який відокремлює важку воду від звичайної.
+upgrade.gas=Газ
+upgrade.gas.desc=Збільшує ефективність механізмів, що використовують газ.
+upgrade.muffling=Глушіння
+upgrade.muffling.desc=Знижує рівень шуму від механізмів.
+upgrade.anchor=Якір
+upgrade.anchor.desc=Зберігає чанк механізму завантаженим.
+upgrade.stonegenerator=Генератор каменю
+upgrade.stonegenerator.desc=Генерує камінь або кругляк за потреби.
+upgrade.thread=Додаткові потоки
+upgrade.thread.desc=Паралельна обробка існуючих робочих рецептів для механізмів.
+
+# Key description text
+key.mekanism.mode=Перемикач режиму предмета
+key.mekanism.head_mode=Перемикач режиму шолома
+key.mekanism.chest_mode=Перемикач режиму нагрудника
+key.mekanism.legs_mode=Перемикач режиму штанів
+key.mekanism.feet_mode=Перемикач режиму взуття
+key.mekanism.voice=Голос
+key.mekanism.key_hud=Показати HUD
+key.mekanism.key_boost=Прискорення
+key.mekanism.module_tweaker=Налаштування модуля
+
+# Entities
+entity.Robit.name=Робіт
+entity.BabySkeleton.name=Скелет-малюк
+entity.BabyCreeper.name=Кріпер-малюк
+entity.BabyEnderman.name=Ендермен-малюк
+entity.BabyStray.name=Блукач-малюк
+entity.BabyWitherSkeleton.name=Скелет-висушувач-малюк
+
+# Config Gui
+mekanism.configgui.ctgy.general=Загальні налаштування
+mekanism.configgui.ctgy.mekce=Налаштування MEK:CE
+mekanism.configgui.ctgy.machines=Налаштування механізмів
+mekanism.configgui.ctgy.tier=Налаштування рівнів
+mekanism.configgui.ctgy.usage=Налаштування споживання
+mekanism.configgui.ctgy.client=Налаштування клієнта
+mekanism.configgui.ctgy.storage=Налаштування зберігання енергії
+mekanism.configgui.ctgy.meka=Налаштування MekaSuit
+
+# Config Tooltips
+mekanism.configgui.ctgy.general.tooltip=Загальні налаштування Mekanism та всіх його модулів
+mekanism.configgui.ctgy.machines.tooltip=Налаштування увімкнення та вимкнення певних механізмів
+mekanism.configgui.ctgy.tier.tooltip=Налаштування рівнів Mekanism та їхніх відповідних значень
+mekanism.configgui.ctgy.usage.tooltip=Налаштування механізмів та їхнього енергоспоживання
+mekanism.configgui.ctgy.client.tooltip=Специфічні для клієнта налаштування Mekanism та всіх його модулів
+mekanism.configgui.ctgy.storage.tooltip=Налаштування механізмів та їхньої максимальної місткості енергії
+mekanism.configgui.ctgy.mekce.tooltip=Додаткові налаштування коригування
+
+# Gui text
+gui.condensentrating=Конденсація
+gui.decondensentrating=Деконденсація
+gui.power=Енергія
+gui.confirm=Підтвердити
+gui.open=Відкрити
+gui.allOK=Все ОК
+gui.none=Немає
+gui.new=Створити
+gui.edit=Редагувати
+gui.save=Зберегти
+gui.output=Вихід
+gui.delete=Видалити
+gui.status=Статус
+gui.autoEject=Автовикид
+gui.clear=Очистити сторону
+gui.itemstack=Предмет
+gui.oredict=OreDict
+gui.material=Матеріал
+gui.out=Вих
+gui.noFluid=Немає рідини
+gui.noGas=Немає газу
+gui.empty=Порожньо
+gui.volume=Об'єм
+gui.start=Старт
+gui.stop=Стоп
+gui.config=Конфіг
+gui.teleport=Телепорт
+gui.eject=Викид
+gui.input=Вхід
+gui.strictInput=Суворий вхід
+gui.slots=Слоти
+gui.state=Стан
+gui.on=Увімк
+gui.off=Вимк
+gui.filters=Фільтри
+gui.filter=Фільтр
+gui.idle=Простій
+gui.data=Дані
+gui.newFilter=Новий фільтр
+gui.energy=Енергія
+gui.gas=Газ
+gui.dumping=Скидання
+gui.dumping_excess=Скидання надлишку
+gui.modID=ID мода
+gui.key=Ключ
+gui.id=ID
+gui.finished=Завершено
+gui.well=Все добре!
+gui.upgrade=Покращення
+gui.infinite=Нескінченно
+gui.radi=Радіус
+gui.min=Мін
+gui.max=Макс
+gui.delay=Затримка
+gui.noDelay=Без затримки
+gui.fuel=Паливо
+gui.heat=Тепло
+gui.formed=Сформовано
+gui.incomplete=Неповний
+gui.inductionMatrix=Індукційна матриця
+gui.matrixStats=Статистика матриці
+gui.turbineStats=Статистика турбіни
+gui.boilerStats=Статистика бойлера
+gui.main=Головна
+gui.outputting=Виведення
+gui.receiving=Отримання
+gui.dimensions=Розміри
+gui.constituents=Компоненти
+gui.cells=комірки
+gui.providers=провайдери
+gui.structure=Структура
+gui.dynamicTank=Динамічний резервуар
+gui.industrialTurbine=Промислова турбіна
+gui.thermoelectricBoiler=Термоелектричний бойлер
+gui.visuals=Візуалізація
+mekanism.gui.visuals.toobig=Радіус занадто великий для візуалізації
+gui.noEject=Неможливо викинути
+gui.undefined=Невизначено
+gui.owner=Власник
+gui.itemowner=Власник предмета
+gui.Teleportercolor=Налаштування кольору порталу
+gui.public=Публічний
+gui.private=Приватний
+gui.add=Додати
+gui.set=Встановити
+gui.freq=Частота
+gui.security=Безпека
+gui.index=Індекс
+gui.producing=Виробництво
+gui.maxOutput=Макс. вихід
+gui.storing=Зберігання
+gui.skyBlocked=Небо заблоковано
+gui.noWind=Немає вітру
+gui.using=Використання
+gui.needed=Потрібно
+mekanism.gui.bufferfree=Вільний буфер
+mekanism.gui.insufficientbuffer=Недостатній енергетичний буфер!
+gui.noRecipe=Немає рецепта
+gui.conflict=Конфлікт
+gui.height=Висота
+gui.mult=Множник
+gui.chunk=Чанк
+gui.vibrating=Вібрація
+gui.abundancy=Достаток
+gui.nextItem=Наступний предмет
+gui.lastItem=Попередній предмет
+gui.oreDictCompat=Сумісний ключ OreDict
+gui.toggleCooling=Перемкнути вимірювання охолодження
+gui.coolingMeasurements=Активне охолодження
+gui.redstoneOutputMode=Режим редстоуну
+gui.moveUp=Вгору
+gui.moveDown=Вниз
+gui.flowRate=Швидкість потоку
+gui.maxFlow=Макс. потік
+gui.tankVolume=Об'єм резервуара
+gui.steamFlow=Потік пари
+gui.production=Виробництво
+gui.blades=Лопаті
+gui.coils=Котушки
+gui.dispersers=Дисперсатори
+gui.vents=Вентилі
+gui.maxProduction=Макс. виробництво
+gui.limiting=Обмеження
+gui.steamInput=Вхід пари
+gui.capacity=Місткість
+gui.unit=Одиниця
+gui.temp=Темп
+gui.usage=Споживання
+gui.transferred=Передано
+gui.dissipated=Розсіяно
+gui.boilRate=Швидкість кипіння
+gui.maxBoil=Макс. кипіння
+gui.maxWater=Макс. вода
+gui.maxSteam=Макс. пара
+gui.heatedCoolant=Нагрітий охолоджувач
+gui.coolant=Охолоджувач
+gui.waste=Відходи
+gui.reactorDamage=Пошкодження реактора
+gui.rateLimit=Ліміт швидкості
+gui.fissionReactor=Реактор поділу
+gui.fissionLogicAdapter=Логічний адаптер поділу
+gui.heatTransfer=Теплопередача
+gui.superheaters=Перегрівачі
+gui.boilCapacity=Потужність кипіння
+gui.encodeFormula=Закодувати формулу
+gui.autoModeToggle=Авторежим
+gui.craftSingle=Створити один предмет
+gui.craftAvailable=Створити доступні предмети
+gui.fillEmpty=Заповнити/Очистити сітку
+gui.noOwner=Немає власника
+gui.securityOverride=Перевизначення безпеки
+gui.remove=Видалити
+gui.trustedPlayers=Довірені гравці
+gui.publicMode=Публічний режим
+gui.privateMode=Приватний режим
+gui.trustedMode=Довірений режим
+gui.securityOffline=Безпека вимкнена
+gui.noAccessDesc=У вас немає доступу.
+gui.overridden=Перевизначено
+gui.nowOwn=Тепер ви володієте цим предметом.
+gui.frequency=Частота
+gui.mode=Режим
+gui.burnRate=Швидкість спалювання
+gui.entityDetection=Виявлення сутностей
+gui.energyContents=Вміст енергії
+gui.redstoneOutput=Вихід редстоуну
+gui.maxWaterOutput=Макс. вихід води
+gui.stockControl=Контроль запасів
+gui.allowDefault=Дозволити за замовчуванням
+gui.sizeMode=Режим розміру
+mekanism.gui.sizeModeConflict=зараз не має ефекту, оскільки увімкнено режим одного предмета.
+gui.mekanism.progress=Прогрес:
+gui.mekanism.show.recipes=Показати рецепти механізму
+
+gui.reactor.injectionRate=Швидкість ін'єкції
+
+gui.upgrades=Покращення
+gui.upgrades.supported=Підтримується
+gui.upgrades.noSelection=Не вибрано
+gui.upgrades.amount=Кількість
+gui.upgrades.max=Макс
+gui.upgrades.effect=Ефект
+gui.upgrades.unistall=Видалити
+gui.upgrades.uninstall=Видаляє одне покращення, утримуйте Shift, щоб видалити всі
+
+gui.chemicalInfuser.short=Хім. наповнювач
+gui.chemicalDissolutionChamber.short=Кам. хім. розчинення
+gui.thermalEvaporationController.short=Контр. терм. випаровування
+conversion.mekanism.energy=Предмет в енергію
+gui.dimension2=Потрібен ID виміру
+gui.dimension2Name=Потрібен вимір
+gui.dimensionId=Поточний ID виміру
+gui.dimensionName=Поточний вимір
+gui.dimensionGas=Газ, вироблений у поточному вимірі
+gui.dimensionNoGas=У поточному вимірі немає газу
+gui.probability=Ймовірність
+gui.probability2=Ймовірність виходу
+gui.dictionary.noKey=Немає ключа.
+
+gui.configuration=Конфігурація
+gui.configuration.side=Конфігурація сторін
+gui.configuration.transporter=Конфігурація транспортера
+gui.configuration.strictInput=Суворий вхід
+
+gui.rotaryCondensentrator.toggleOperation=Перемкнути операцію
+
+gui.factory.secondaryEnergy=Вторинна енергія
+gui.factory.autoSort=Автосортування
+gui.factory.autoSort.isold=Використовується старе автосортування
+gui.factory.autoSort.old=Старе автосортування
+gui.factory.autoSort.old.info=Якщо автосортування працює добре, не вмикайте це
+gui.factory.autoSort.old.info2=Це може викликати проблеми зі застарілим автосортуванням
+
+# Recipe types
+gui.factory.Smelting=Плавка
+gui.factory.Enriching=Збагачення
+gui.factory.Crushing=Дроблення
+gui.factory.Compressing=Стискання
+gui.factory.Combining=Об'єднання
+gui.factory.Purifying=Очищення
+gui.factory.Injecting=Ін'єкція
+gui.factory.Infusing=Наповнення
+gui.factory.Sawing=Розпилювання
+gui.factory.Farm=Ферма
+gui.factory.Stamping=Штампування
+gui.factory.Rolling=Прокатка
+gui.factory.Brushed=Волочіння
+gui.factory.Turning=Токарна обробка
+gui.factory.Alloy=Сплавлення
+gui.factory.Extractor=Екстракція
+gui.factory.Separator=Сепарація
+gui.factory.Recycler=Переробка
+gui.factory.Dissolution=Розчинення
+gui.factory.Crystallizer=Кристалізація
+gui.factory.PRC=Під тиском
+gui.factory.Oxidizer=Окислення
+gui.factory.Nucleosynthesizer=Нуклеосинтез
+gui.factory.Washer=Миття
+
+gui.seismicReader.short=Сейсм. зчитувач
+gui.seismicReader.solids=Тверді тіла
+gui.seismicReader.fluids=Рідини
+gui.seismicReader.reading=Зчитування
+
+gui.filterSelect.title=Створити новий фільтр
+
+gui.oredictFilter=Фільтр OreDict
+gui.oredictFilter.noKey=Немає ключа
+gui.oredictFilter.sameKey=Той самий ключ
+
+gui.modIDFilter=Фільтр ID мода
+gui.modIDFilter.noID=Немає ID
+gui.modIDFilter.sameID=Той самий ID
+
+gui.oredictionificatorFilter=Фільтр уніфікатора руд
+
+gui.itemFilter=Фільтр предметів
+gui.itemFilter.noItem=Немає предмета
+gui.itemFilter.details=Деталі предмета
+gui.itemFilter.min=Мін
+gui.itemFilter.max=Макс
+
+gui.materialFilter=Фільтр матеріалу
+gui.materialFilter.details=Використання матеріалу з
+
+gui.portableTeleporter=Портативний телепортер
+
+gui.robit=Робіт
+gui.robit.smelting=Плавка Робіта
+gui.robit.inventory=Інвентар Робіта
+gui.robit.crafting=Крафт Робіта
+gui.robit.repair=Ремонт Робіта
+gui.robit.greeting=Привіт, я
+gui.robit.toggleFollow=Перемкнути режим "слідування"
+gui.robit.rename=Перейменувати цього Робіта
+gui.robit.teleport=Телепортуватися додому
+gui.robit.togglePickup=Перемкнути режим "збирання предметів"
+gui.robit.following=Слідує
+gui.robit.dropPickup=Збирання предметів
+gui.robit.owner=Власник
+
+gui.password.setPassword=Встановити пароль
+gui.password.enterPassword=Ввести пароль
+gui.password.fieldsEmpty=Поле(я) порожні
+gui.password.notMatching=Не збігається
+gui.password.identical=Ідентичний
+gui.password.invalid=Недійсний
+gui.password=Пароль
+
+mekanism.gui.logisticalSorter.default=За замовчуванням
+mekanism.gui.logisticalSorter.autoEject=Авто
+mekanism.gui.logisticalSorter.autoEject.tooltip=Автоматично викидає предмети до підключених інвентарів.
+mekanism.gui.logisticalSorter.roundRobin=RR
+mekanism.gui.logisticalSorter.roundRobin.tooltip=Циклічно перемикається між усіма підключеними інвентарями під час надсилання предметів.
+mekanism.gui.logisticalSorter.singleItem=Один
+mekanism.gui.logisticalSorter.singleItem.tooltip=Надсилає один предмет замість цілого стаку кожного разу (перевизначає мін. і макс. значення, встановлені у фільтрах предметів).
+
+gui.teleporter.notReady=Не готовий
+gui.teleporter.ready=Готовий
+gui.teleporter.noFrame=Немає рами
+gui.teleporter.noLink=Немає зв'язку
+gui.teleporter.exceeds=Зв'язків > 2
+gui.teleporter.needsEnergy=Потребує енергії
+gui.teleporter.noAccess=У вас немає доступу до цього телепортера.
+gui.teleporter.noFreq=Немає частоти
+
+gui.entangloporter.noAccess=У вас немає доступу до цього заплутувача.
+
+gui.digitalMinerConfig=Конфіг цифрового шахтаря
+
+gui.digitalMiner.autoPull=Автовитягування
+gui.digitalMiner.replaceBlock=Заміна блоку
+gui.digitalMiner.reset=Скинути
+gui.digitalMiner.silkTouch=Шовковий дотик
+gui.digitalMiner.pull=Витягнути
+gui.digitalMiner.silk=Шовк
+gui.digitalMiner.toMine=Для видобутку
+gui.digitalMiner.running=Працює
+gui.digitalMiner.inverse=Інверсний режим
+gui.digitalMiner.requireReplace=Вимагає заміни
+gui.digitalMiner.fuzzyMode=Нечіткий режим
+gui.digitalMiner.missingBlock=Відсутній блок
+mekanism.gui.digitalMiner.capacity=Місткість енергії
+mekanism.gui.digitalMiner.lowPower=Низька потужність
+gui.teleporter.Searching=Пошук
+gui.teleporter.Paused=Пауза
+
+# Recipe names
+recipe.mekanismShaped=Формований
+recipe.mekanismShapeless=Безформний
+
+# Security types
+security.public=Публічний
+security.private=Приватний
+security.trusted=Довірений
+
+# Item and block tooltip text
+tooltip.configurator.configurate=Налаштувати
+tooltip.configurator.empty=Порожній
+tooltip.configurator.rotate=Повернути
+tooltip.configurator.wrench=Гайковий ключ
+tooltip.configurator.pumpReset=Скинути розрахунок електричної помпи
+tooltip.configurator.toggleDiverter=Режим відведення змінено на
+tooltip.configurator.toggleMode=Поведінка %s змінена на
+tooltip.configurator.viewMode=Поточна поведінка %s
+tooltip.configurator.noLink=Немає зв'язку
+tooltip.configurator.linkMsg=Прив'язано до
+tooltip.configurator.dim=виміру
+tooltip.configurator.setLink=Встановити зв'язок з блоком
+tooltip.configurator.plenisherReset=Скинути розрахунок рідинного наповнювача
+tooltip.configurator.inductionPortMode=Режим передачі індукційного порту змінено на
+tooltip.configurator.toggleColor=Колір змінено на
+tooltip.configurator.viewColor=Поточний колір
+tooltip.configurator.reactorPortEject=Режим викиду порту реактора змінено на
+tooltip.configurator.modeChange=Тип підключення змінено на
+mekanism.pipe.connectiontype.normal=Нормальний
+mekanism.pipe.connectiontype.push=Штовхати
+mekanism.pipe.connectiontype.pull=Тягнути
+mekanism.pipe.connectiontype.none=Немає
+
+tooltip.upgrade.speed=Швидкість
+tooltip.upgrade.energy=Енергія
+
+tooltip.inventory=Інвентар
+tooltip.storedEnergy=Збережена енергія
+tooltip.auth=Автентифіковано
+tooltip.locked=Заблоковано
+tooltip.recipeType=Тип рецепта
+tooltip.hold=Утримуйте
+tooltip.forDesc=для опису
+tooltip.forDetails=для деталей
+mekanism.tooltip.fireMode=Режим вогню: %s
+tooltip.capacity=Місткість
+tooltip.pumpRate=Швидкість помпи
+tooltip.items=Предмети
+tooltip.blocks=Блоки
+tooltip.universal=універсальний
+tooltip.fluids=Рідини
+tooltip.gasses=Гази
+tooltip.capableTrans=Здатний передавати
+tooltip.restrictiveDesc=Використовується лише за відсутності інших шляхів
+tooltip.diversionDesc=Керується редстоуном
+tooltip.noGas=Газ не збережено
+tooltip.stored=Збережено
+tooltip.channel=Канал
+tooltip.walkie_disabled=Голосовий сервер вимкнено.
+tooltip.mode=Режим
+tooltip.efficiency=Ефективність
+tooltip.modeToggle=Режим перемкнуто на
+tooltip.flowing=Потік
+tooltip.yes=так
+tooltip.no=ні
+tooltip.name=Ім'я
+tooltip.blockData=Дані блоку
+tooltip.block=Блок
+tooltip.meta=Метадані
+tooltip.tile=Тайл
+tooltip.keysFound=Знайдено ключ(і)
+tooltip.noKey=Немає ключа
+tooltip.hp=ОЗ
+mekanism.tooltip.configureState=Стан конфігурації: %s
+tooltip.outputRate=Швидкість виходу
+tooltip.insufficientFuel=Недостатньо палива
+tooltip.readyForReaction=Готовий до реакції
+tooltip.speed=Швидкість
+tooltip.and=і
+tooltip.heat=Тепло
+tooltip.itemAmount=Кількість предметів
+tooltip.invalid=Недійсний
+tooltip.encoded=Закодовано
+tooltip.ingredients=Інгредієнти
+tooltip.conduction=Провідність
+tooltip.insulation=Ізоляція
+tooltip.heatCapacity=Теплоємність
+
+mekanism.tooltip.portableTank.bucketMode=Режим відра: %s
+
+mekanism.tooltip.disassembler.normal=нормальний
+mekanism.tooltip.disassembler.slow=повільний
+mekanism.tooltip.disassembler.fast=швидкий
+mekanism.tooltip.disassembler.vein=жила
+mekanism.tooltip.disassembler.extended_vein=розширений видобуток жили
+mekanism.tooltip.disassembler.off=вимкнено
+
+mekanism.tooltip.mektool.normal=нормальний
+mekanism.tooltip.mektool.slow=повільний
+mekanism.tooltip.mektool.fast=швидкий
+mekanism.tooltip.mektool.very_fast=дуже швидкий
+mekanism.tooltip.mektool.vein=жила
+mekanism.tooltip.mektool.extended_vein=розширений
+mekanism.tooltip.mektool.off=вимкнено
+
+tooltip.configurationCard.got=Отримано дані конфігурації з %s
+tooltip.configurationCard.set=Впроваджено дані конфігурації типу %s
+tooltip.configurationCard.unequal=Нерівні формати даних конфігурації
+tooltip.configuration_card.mekanism.cleared=Очищено карту конфігурації
+
+tooltip.balloon=Повітряна куля
+
+tooltip.jetpack.regular=Звичайний
+tooltip.jetpack.hover=Зависання
+tooltip.jetpack.vector=Векторний
+tooltip.jetpack.disabled=Вимкнено
+tooltip.jetpack.mode=Режим реактивного ранця:
+tooltip.jetpack.stored=Паливо реактивного ранця:
+
+tooltip.freerunner.regular=Звичайний
+tooltip.freerunner.disabled=Вимкнено
+tooltip.freerunner.safety=Безпека
+tooltip.free_runners.mode=Режим бігунів:
+tooltip.free_runners.stored=Енергія бігунів:
+
+tooltip.scuba_tank.mode=Балон для дайвінгу:
+
+tooltip.flamethrower.mode=Режим вогнемета：
+tooltip.flamethrower.stored=Вогнемет:
+tooltip.flamethrower.combat=Бойовий
+tooltip.flamethrower.heat=Тепло
+tooltip.flamethrower.inferno=Пекло
+mekanism.tooltip.flamethrower.modeBump=Режим вогнемета змінено на %s
+
+tooltip.seismicReader.needsEnergy=Недостатньо енергії для інтерпретації вібрації
+tooltip.seismicReader.noVibrations=Не вдалося виявити жодних вібрацій
+tooltip.mekanism.SeismicReader=Портативний пристрій, який використовує сейсмічні вібрації для надання інформації про різні шари світу.
+
+tooltip.Bin=Блок, що використовується для зберігання великої кількості предметів одного типу.
+tooltip.TeleporterFrame=Рама, що використовується для побудови мультиблока Телепортера, дозволяючи генерувати портал всередині структури.
+tooltip.SteelCasing=Міцний сталевий корпус, що використовується як основа для механізмів.
+tooltip.DynamicTank=Корпус, що використовується в мультиблоці Динамічного резервуара, структурі, здатній зберігати великі обсяги рідини.
+tooltip.StructuralGlass=Просунутий, посилений скляний матеріал, який випадає при руйнуванні та може використовуватися в структурі будь-якого відповідного мультиблока.
+tooltip.DynamicValve=Клапан, який можна розмістити на мультиблоці Динамічного резервуара, що дозволяє вводити та виводити рідини через зовнішні труби.
+tooltip.ThermalEvaporationController=Контролер для заводу термічного випаровування, що діє як головний блок структури. Лише один такий має бути розміщений на мультиблоці.
+tooltip.ThermalEvaporationValve=Клапан, який можна розмістити на мультиблоці заводу термічного випаровування, що дозволяє вводити та виводити рідини через зовнішні труби.
+tooltip.ThermalEvaporationBlock=Мідний корпус, що використовується в структурі заводу термічного випаровування, використовує свій матеріал для проведення великої кількості тепла, необхідного для процесу.
+tooltip.InductionCasing=Тип енергостійкого корпусу, що використовується при створенні мультиблока Індукційної матриці.
+tooltip.InductionPort=Порт, який можна розмістити на мультиблоці Індукційної матриці, що дозволяє вводити та виводити енергію до зовнішніх кабелів.
+tooltip.InductionCell=Високопровідний енергетичний конденсатор, здатний зберігати величезні обсяги енергії в одному блоці. Розміщується в Індукційній матриці для збільшення місткості.
+tooltip.InductionProvider=Просунутий комплекс систем охолодження, провідників і трансформаторів, здатний розширити максимальну швидкість передачі енергії Індукційної матриці.
+tooltip.SuperheatingElement=Модульний, дещо небезпечний радіатор, здатний випромінювати величезну кількість тепла у своє оточення.
+tooltip.PressureDisperser=Блок, що використовується для розсіювання пари по всій структурі мультиблока. Їх слід формувати в горизонтальну площину без проміжків для належного контролю потоку пари.
+tooltip.BoilerCasing=Стійкий до тиску, щільний корпус, що використовується у створенні мультиблока Термоелектричного бойлера.
+tooltip.BoilerValve=Клапан, який можна розмістити на мультиблоці Термоелектричного бойлера, що дозволяє вводити енергію та воду, а також виводити вироблену пару.
+tooltip.SecurityDesk=Центральний вузол управління для керування безпекою всіх ваших механізмів.
+
+tooltip.EnrichmentChamber=Простий механізм, що використовується для збагачення руд у два їхніх пилових аналоги, а також для виконання багатьох інших операцій.
+tooltip.OsmiumCompressor=Досить просунутий механізм, що використовується для стиснення осмію в різні види пилу з метою створення їхніх злитків.
+tooltip.Combiner=Механізм, що використовується для об'єднання пилу та кругляку для формування відповідних руд.
+tooltip.Crusher=Механізм, що використовується для подрібнення злитків на їхні пилові аналоги, а також для виконання інших операцій.
+tooltip.DigitalMiner=Високотехнологічний автошахтар на основі фільтрів, який може видобувати будь-який вказаний блок у радіусі до 32 блоків.
+tooltip.MetallurgicInfuser=Механізм, що використовується для наповнення (зазвичай) металів різними матеріалами для створення металевих сплавів та інших сполук.
+tooltip.PurificationChamber=Просунутий механізм, здатний обробляти руди на три грудочки, слугуючи початковим етапом 300% обробки руди.
+tooltip.EnergizedSmelter=Простий механізм, що слугує піччю на базі енергії Mekanism.
+tooltip.Teleporter=Механізм, здатний телепортувати гравців у різні місця, визначені іншим телепортером.
+tooltip.ElectricPump=Просунута помпа з можливістю покращення, здатна витягувати будь-який тип рідини.
+tooltip.PersonalChest=Скриня на 54 слоти, яку можна відкрити будь-де - навіть з власного інвентарю.
+tooltip.Chargepad=Універсальна зарядна панель, здатна заряджати будь-який енергетичний предмет з будь-якого мода.
+tooltip.LogisticalSorter=Просунута сортувальна машина на основі фільтрів, яка може автоматично викидати вказані предмети у суміжні інвентарі та логістичні транспортери.
+tooltip.RotaryCondensentrator=Механізм, здатний перетворювати гази у рідкий стан і навпаки.
+tooltip.ChemicalInjectionChamber=Елітний механізм, здатний обробляти руди на чотири осколки, слугуючи початковим етапом 400% обробки руди.
+tooltip.ElectrolyticSeparator=Механізм, що використовує процес електролізу для розщеплення певного газу на два різних гази.
+tooltip.PrecisionSawmill=Механізм, що використовується для ефективнішої обробки колод та дерев'яних предметів, а також для отримання тирси.
+tooltip.ChemicalDissolutionChamber=Абсолютний механізм, що використовується для хімічного розчинення всіх домішок руди, залишаючи необроблену суспензію.
+tooltip.ChemicalWasher=Абсолютний механізм, який очищає необроблену суспензію та готує її до кристалізації.
+tooltip.ChemicalCrystallizer=Абсолютний механізм, що використовується для кристалізації очищеної рудної суспензії у рудні кристали.
+tooltip.ChemicalOxidizer=Механізм, здатний окислювати тверді матеріали до газоподібного стану.
+tooltip.ChemicalInfuser=Механізм, що виробляє новий газ шляхом змішування двох інших.
+tooltip.SeismicVibrator=Механізм, що використовує сейсмічні вібрації для надання інформації про різні шари світу.
+tooltip.PressurizedReactionChamber=Просунутий механізм, який обробляє суміш твердих, рідких і газоподібних речовин, створюючи газоподібний і твердий продукт.
+tooltip.FluidTank=Зручний, міцний портативний резервуар, який дозволяє переносити кілька відер рідини куди завгодно. Також працює як відро!
+tooltip.FluidicPlenisher=Механізм, здатний створювати цілі озера, заповнюючи ущелини рідинами.
+tooltip.Laser=Просунута форма лінійної передачі енергії, що використовує надзвичайно колімований промінь світла.
+tooltip.LaserAmplifier=Блок, який можна використовувати для об'єднання, перенаправлення та підсилення лазерних променів, з точним контролем часу пострілу.
+tooltip.LaserTractorBeam=Блок, що використовується для об'єднання та перенаправлення лазерних променів. Збирає предмети з блоків, які він зруйнував.
+tooltip.SolarNeutronActivator=Механізм, що направляє нейтронне випромінювання сонця у свій внутрішній резервуар, дозволяючи повільно створювати різні ізотопи.
+tooltip.Oredictionificator=Механізм, що використовується для уніфікації та перекладу між різними предметами та блоками за допомогою Ore Dictionary.
+tooltip.Factory=Механізм, що слугує покращенням для звичайних механізмів, дозволяючи виконувати кілька операцій одночасно.
+tooltip.ResistiveHeater=Конденсований спіральний резистор, здатний перетворювати електричну енергію безпосередньо у теплову.
+tooltip.FormulaicAssemblicator=Механізм, що використовує енергію для швидкого створення предметів і блоків за формулами. Також працює як просунутий верстак.
+tooltip.FuelwoodHeater=Механізм, здатний виробляти велику кількість теплової енергії шляхом спалювання горючих предметів.
+tooltip.QuantumEntangloporter=Високотехнологічний блок, здатний передавати будь-який ресурс на великі відстані та між вимірами.
+
+tooltip.HeatGenerator=Генератор, що використовує тепло лави або інших горючих ресурсів для виробництва енергії.
+tooltip.SolarGenerator=Генератор, що використовує енергію сонця для виробництва енергії.
+tooltip.GasGenerator=Генератор, що використовує гази для виробництва енергії.
+tooltip.BioGenerator=Генератор, що спалює органічні матеріали для виробництва енергії.
+tooltip.AdvancedSolarGenerator=Просунутий генератор, що безпосередньо поглинає сонячні промені з мінімальними втратами для виробництва енергії.
+tooltip.WindGenerator=Генератор, що використовує силу вітру для виробництва енергії, з більшою ефективністю на більшій висоті.
+tooltip.TurbineRotor=Сталевий стрижень, що використовується для розміщення лопатей в промисловій турбіні.
+tooltip.RotationalComplex=З'єднувач, який розміщується на найвищому роторі турбіни для передачі кінетичної енергії в електромагнітні котушки.
+tooltip.ElectromagneticCoil=Блок, що перетворює кінетичну енергію від ротаційного комплексу в придатну для використання електрику.
+tooltip.TurbineCasing=Стійкий до тиску корпус, що використовується для створення промислової турбіни.
+tooltip.TurbineValve=Тип корпусу турбіни, що включає порт для передачі енергії та пари.
+tooltip.TurbineVent=Тип корпусу турбіни з вбудованим вентилем для випуску пари.
+tooltip.SaturatingCondenser=Блок, що конденсує пару, оброблену турбіною, у воду для повторного використання.
+tooltip.FissionReactorCasing=Термостійкий корпус, що використовується у створенні реактора поділу.
+tooltip.FissionReactorPort=Тип корпусу реактора поділу, що дозволяє передавати охолоджувач, пару, паливо та відходи.
+tooltip.FissionFuelAssembly=Збірка палива, що використовується для розміщення подільного палива всередині реактора поділу.
+tooltip.ControlRodAssembly=Збірка керуючих стрижнів, що розміщується над збірками палива в реакторі поділу.
+tooltip.FissionReactorLogicAdapter=Логічний адаптер реактора поділу, який виводить статус редстоуну та підтримує режими логічного контролю.
+fission.port.mode.output_coolant=Вихід охолоджувача
+fission.port.mode.output_waste=Вихід відходів
+fission.logic.mode=Логіка поділу
+fission.logic.mode.disabled=Вимкнено
+fission.logic.mode.activation=Активація
+fission.logic.mode.temperature=Температура
+fission.logic.mode.excess_waste=Надлишок відходів
+fission.logic.mode.damaged=Пошкоджено
+fission.logic.mode.depleted=Вичерпано
+fission.logic.mode.disabled.desc=Не виводити сигнал редстоуну.
+fission.logic.mode.activation.desc=Виводити, доки адаптер має зовнішнє живлення.
+fission.logic.mode.temperature.desc=Виводити, коли температура реактора досягає небезпечного порогу.
+fission.logic.mode.excess_waste.desc=Виводити, коли резервуар для відходів заповнений.
+fission.logic.mode.damaged.desc=Виводити, коли пошкодження реактора досягає 100%.
+fission.logic.mode.depleted.desc=Виводити, коли подільне паливо вичерпано.
+fission.logic.status.powered=Живиться
+fission.cooling.idle=Простій
+fission.cooling.water=Водяне охолодження
+fission.cooling.sodium=Натрієве охолодження
+fission.force_disabled=Примусово вимкнено
+
+tooltip.ReactorGlass=Посилене скло, що може використовуватися в мультиблоці термоядерного реактора.
+tooltip.ReactorLaserFocusMatrix=Панель скла реактора, здатна поглинати оптичну енергію і тим самим нагрівати термоядерний реактор.
+tooltip.ReactorController=Контролюючий блок для всієї структури термоядерного реактора.
+tooltip.ReactorFrame=Посилена рама, що може використовуватися в мультиблоці термоядерного реактора.
+tooltip.ReactorNeutronCapturePlate=Блок, який може використовуватися як для блокування радіації, так і для допомоги у виробництві тритію.
+tooltip.ReactorPort=Блок посиленої рами, здатний управляти передачею газу та енергії термоядерного реактора.
+tooltip.ReactorLogicAdapter=Блок, який можна використовувати для базового моніторингу реактора за допомогою редстоуну.
+
+tooltip.OsmiumOre=Міцний мінерал, який можна знайти на будь-якій висоті у світі. Має багато застосувань у будівництві механізмів.
+tooltip.CopperOre=Поширений, провідний матеріал, який можна використовувати у виробництві дротів.
+tooltip.TinOre=Легкий, але міцний, провідний матеріал, що зустрічається рідше, ніж мідь.
+tooltip.FluoriteOre=Мінерал, знайдений відносно глибоко під поверхнею. Кристали можна переробити у плавикову кислоту.
+tooltip.LeadOre=Досить рідкісний метал, що відмінно протистоїть радіоактивним частинкам.
+tooltip.UraniumOre=Поширений важкий метал, який може давати величезну кількість енергії. У природному вигляді не становить небезпеки.
+
+# Add new machine block and item tooltip - start
+tooltip.IsotopicCentrifuge=Механізм з єдиною метою: дуже, дуже швидко обертати те, що в нього завантажують.
+tooltip.NutritionalLiquifier=Механізм, що переробляє будь-яку їжу у безпечну, легко засвоювану поживну пасту.
+tooltip.canteen1=Можна додати лише поживну пасту.
+tooltip.canteen2=Чому цей предмет такий дорогий?
+tooltip.MekTool1=Дуже потужна машина для копання.
+tooltip.MekTool2=Коли заряд понад 25%, шкода буде подвоєна.
+tooltip.MekTool3=Коли заряд понад 90%, може мати ефект миттєвого вбивства?
+tooltip.MekTool4=☢☣✪ Увага, небезпечний інструмент! ✪☣☢
+tooltip.SuperchargedCoil=Використовується в мультиблоці SPS для подачі великої кількості енергії. Повинен бути прикріплений до порту SPS.
+tooltip.OrganicFarm=Дуже потужна одноблокова ферма.
+tooltip.AmbientAccumulator=Механізм, що може збирати гази, які містяться у поточному вимірі.
+tooltip.AmbientAccumulatorEnergy=Електричний механізм, що може збирати гази, які містяться у поточному вимірі.
+tooltip.antiprotonicnucleosynthesizer=Механізм, що використовує невелику кількість антиматерії та багато енергії для атомного перетворення ресурсів.
+tooltip.Stamping=Механізм, що використовує сильний тиск для виготовлення пластин.
+tooltip.Rolling=Механізм, що використовує вали для тонкого розкочування листів.
+tooltip.Brushed=Механізм, що робить поверхню гладкою шляхом постійного полірування.
+tooltip.Turning=Механізм, що зазвичай використовується для обробки циліндрів.
+tooltip.Alloy=Механізм, який часто використовується для сплавлення двох металів.
+tooltip.CellExtractor=Механізм, що витягує клітини з різноманітної органічної матерії.
+tooltip.CellSeparator=Механізм, що розділяє клітини шляхом високошвидкісного обертання.
+tooltip.Recycler=Механізм, що спеціалізується на переробці предметів.
+tooltip.IndustrialAlarm=Не просто ваша звичайна сигналізація... це "промислова" сигналізація!
+tooltip.Hybrid_Storage=Блоки, що можуть зберігати 120 предметів, 2 гази, 1 рідину та енергію одночасно.
+
+# Side data
+sideData.None=Немає
+sideData.Input=Вхід
+sideData.Input_Enhance=Посилений вхід
+sideData.Input_1=Вхід (1)
+sideData.Input_2=Вхід (2)
+sideData.Output=Вихід
+sideData.Output_1=Вихід (1)
+sideData.Output_2=Вихід (2)
+sideData.Output_Enhance=Посилений вихід
+sideData.Input_Output=Вхід/Вихід
+sideData.Input_Output_Enhance=Вхід/Посилений вихід
+sideData.Input_Enhance_Output_Enhance=Посилений вхід/Посилений вихід
+sideData.Input_Extra=Додатковий/Вхід
+sideData.Input_Extra_Output=Додатковий/Вхід/Вихід
+sideData.Energy=Енергія
+sideData.Gas=Газ
+sideData.Extra=Додатковий
+sideData.Infuse=Наповнення
+sideData.Fluid=Рідина
+sideData.Fill=Заповнення
+sideData.Empty=Очищення
+sideData.Charge=Заряджання
+sideData.Discharge=Розряджання
+sideData.back=Ззаду
+sideData.bottom=Знизу
+sideData.front=Спереду
+sideData.left=Ліворуч
+sideData.right=Праворуч
+sideData.top=Зверху
+
+# Redstone control
+control.disabled=Вимкнено
+control.high=Високий
+control.low=Низький
+control.pulse=Імпульс
+control.disabled.desc=Завжди активно
+control.high.desc=Активно з сигналом
+control.low.desc=Активно без сигналу
+control.pulse.desc=Активно лише при першому отриманні сигналу
+
+# Container edit modes
+fluidedit.both=Обидва
+fluidedit.fill=Заповнити
+fluidedit.empty=Очистити
+
+# Colors
+color.black=Чорний
+color.darkBlue=Темно-синій
+color.darkGreen=Темно-зелений
+color.darkAqua=Темно-бірюзовий
+color.darkRed=Темно-червоний
+color.purple=Фіолетовий
+color.orange=Помаранчевий
+color.grey=Сірий
+color.darkGrey=Темно-сірий
+color.indigo=Індиго
+color.brightGreen=Яскраво-зелений
+color.aqua=Бірюзовий
+color.red=Червоний
+color.pink=Рожевий
+color.yellow=Жовтий
+color.white=Білий
+color.brown=Коричневий
+color.brightPink=Яскраво-рожевий
+
+# Dyes
+dye.black=Чорний
+dye.darkBlue=Синій
+dye.brown=Коричневий
+dye.darkGreen=Зелений
+dye.darkAqua=Бірюзовий
+dye.darkRed=Темно-червоний
+dye.purple=Фіолетовий
+dye.orange=Помаранчевий
+dye.grey=Світло-сірий
+dye.darkGrey=Сірий
+dye.indigo=Блакитний
+dye.brightGreen=Лаймовий
+dye.aqua=Бірюзовий
+dye.red=Червоний
+dye.brightPink=Рожевий
+dye.pink=Пурпуровий
+dye.yellow=Жовтий
+dye.white=Білий
+
+# Reactor Logic modes
+reactor.disabled=Вимкнено
+reactor.disabled.desc=Не випромінюватиме сигнал редстоуну
+reactor.ready=Готовий до запалювання
+reactor.ready.desc=Реактор досяг необхідного рівня тепла для запалювання
+reactor.capacity=Теплоємність досягнута
+reactor.capacity.desc=Внутрішня теплоємність реактора досягнута
+reactor.depleted=Недостатньо палива
+reactor.depleted.desc=Реактор має недостатньо палива для підтримання реакції
+
+# Creative tab
+itemGroup.tabMekanism=Mekanism
+itemGroup.tabMekanismTools=Mekanism Інструменти
+itemGroup.tabMekanismGenerators=Mekanism Генератори
+itemGroup.tabMekanismAddition=Mekanism Додаток
+
+#Warning tab
+gui.no_energy=Недостатньо енергії для роботи
+gui.item_no_space=Недостатньо місця для виходу предметів
+gui.gas_no_space=Недостатньо місця для виходу газу
+gui.fluid_no_space=Недостатньо місця для виходу рідини
+gui.enough_no_space=Недостатньо місця для виходу енергії
+gui.steam_no_space=Недостатньо місця для виходу пари
+gui.no_freq=Відсутня частота для підключення
+gui.infuse_no_item=Відсутні предмети для наповнення
+gui.no_item=Відсутні предмети
+gui.no_gas=Відсутні гази
+gui.no_fluid=Відсутні рідини
+gui.no_heat=Відсутнє тепло
+
+############
+# GENERATORS
+############
+
+# Items
+item.SolarPanel.name=Сонячна панель
+item.Hohlraum.name=Хольраум
+item.TurbineBlade.name=Лопать турбіни
+
+# Generators
+tile.Generator.HeatGenerator.name=Тепловий генератор
+tile.Generator.SolarGenerator.name=Сонячний генератор
+tile.Generator.GasGenerator.name=Газовий генератор
+tile.Generator.BioGenerator.name=Біогенератор
+tile.Generator.AdvancedSolarGenerator.name=Просунутий сонячний генератор
+tile.Generator.WindGenerator.name=Вітрогенератор
+tile.Generator.TurbineRotor.name=Ротор турбіни
+tile.Generator.RotationalComplex.name=Ротаційний комплекс
+tile.Generator.ElectromagneticCoil.name=Електромагнітна котушка
+tile.Generator.TurbineCasing.name=Корпус турбіни
+tile.Generator.TurbineValve.name=Клапан турбіни
+tile.Generator.TurbineVent.name=Вентиль турбіни
+tile.Generator.SaturatingCondenser.name=Насичувальний конденсатор
+tile.Generator.FissionReactorCasing.name=Корпус реактора поділу
+tile.Generator.FissionReactorPort.name=Порт реактора поділу
+tile.Generator.FissionFuelAssembly.name=Збірка палива поділу
+tile.Generator.ControlRodAssembly.name=Збірка керуючих стрижнів
+tile.Generator.FissionReactorLogicAdapter.name=Логічний адаптер реактора поділу
+tile.Generator2.FissionReactorCasing.name=Корпус реактора поділу
+tile.Generator2.FissionReactorPort.name=Порт реактора поділу
+tile.Generator2.FissionFuelAssembly.name=Збірка палива поділу
+tile.Generator2.ControlRodAssembly.name=Збірка керуючих стрижнів
+tile.Generator2.FissionReactorLogicAdapter.name=Логічний адаптер реактора поділу
+
+tile.Reactor.ReactorController.name=Контролер реактора
+tile.Reactor.ReactorFrame.name=Рама реактора
+tile.Reactor.ReactorNeutronCapturePlate.name=Пластина захоплення нейтронів
+tile.Reactor.ReactorPort.name=Порт реактора
+tile.Reactor.ReactorLogicAdapter.name=Логічний адаптер реактора
+
+tile.ReactorGlass.ReactorGlass.name=Скло реактора
+tile.ReactorGlass.ReactorLaserFocusMatrix.name=Матриця фокусування лазера
+
+# Gui text
+gui.heatGenerator.fuel=Паливо
+gui.solarGenerator.sun=Сонце
+gui.bioGenerator.bioFuel=Біопаливо
+gui.electrolyticSeparator.dump=Скидання
+
+gui.passive=Повітряне охолодження
+gui.active=Водяне охолодження
+
+gui.minInject=Мін. швидкість ін'єкції
+gui.ignition=Темп. запалювання
+gui.maxPlasma=Макс. темп. плазми
+gui.maxCasing=Макс. темп. корпусу
+gui.passiveGeneration=Пасивна генерація
+gui.steamProduction=Виробництво пари
+gui.editrate=Змінити швидкість
+gui.Plasma=Плазма
+gui.Case=Корпус
+
+conversion.mekanism.gasflue.base=Генерація енергії спалюванням газу
+chemical.mekanism.attribute.fuel.burn_ticks= - Час горіння:
+chemical.mekanism.attribute.fuel.energy_density= - Густина енергії:
+# Config Gui
+mekanism.configgui.ctgy.generators.general=Загальні налаштування
+mekanism.configgui.ctgy.generators.generators=Налаштування генераторів
+mekanism.configgui.ctgy.generators.generation=Налаштування генерації
+
+# Config Tooltips
+mekanism.configgui.ctgy.generators.general.tooltip=Налаштування щодо загальної конфігурації генераторів
+mekanism.configgui.ctgy.generators.generators.tooltip=Налаштування увімкнення/вимкнення генераторів
+mekanism.configgui.ctgy.generators.generation.tooltip=Налаштування використання енергії генераторами
+
+#########
+# TOOLS
+#########
+
+# Vanilla Paxels
+item.WoodPaxel.name=Дерев'яний мультиінструмент
+item.StonePaxel.name=Кам'яний мультиінструмент
+item.IronPaxel.name=Залізний мультиінструмент
+item.DiamondPaxel.name=Алмазний мультиінструмент
+item.GoldPaxel.name=Золотий мультиінструмент
+
+# Obsidian
+item.ObsidianHelmet.name=Обсидіановий шолом
+item.ObsidianChestplate.name=Обсидіановий нагрудник
+item.ObsidianLeggings.name=Обсидіанові штани
+item.ObsidianBoots.name=Обсидіанові черевики
+item.ObsidianPaxel.name=Обсидіановий мультиінструмент
+item.ObsidianPickaxe.name=Обсидіанове кайло
+item.ObsidianAxe.name=Обсидіанова сокира
+item.ObsidianShovel.name=Обсидіанова лопата
+item.ObsidianHoe.name=Обсидіанова мотика
+item.ObsidianSword.name=Обсидіановий меч
+item.ObsidianShield.name=Обсидіановий щит
+
+# Osmium
+item.OsmiumHelmet.name=Осмієвий шолом
+item.OsmiumChestplate.name=Осмієвий нагрудник
+item.OsmiumLeggings.name=Осмієві штани
+item.OsmiumBoots.name=Осмієві черевики
+item.OsmiumPaxel.name=Осмієвий мультиінструмент
+item.OsmiumPickaxe.name=Осмієве кайло
+item.OsmiumAxe.name=Осмієва сокира
+item.OsmiumShovel.name=Осмієва лопата
+item.OsmiumHoe.name=Осмієва мотика
+item.OsmiumSword.name=Осмієвий меч
+item.OsmiumShield.name=Осмієвий щит
+
+# Bronze
+item.BronzeHelmet.name=Бронзовий шолом
+item.BronzeChestplate.name=Бронзовий нагрудник
+item.BronzeLeggings.name=Бронзові штани
+item.BronzeBoots.name=Бронзові черевики
+item.BronzePaxel.name=Бронзовий мультиінструмент
+item.BronzePickaxe.name=Бронзове кайло
+item.BronzeAxe.name=Бронзова сокира
+item.BronzeShovel.name=Бронзова лопата
+item.BronzeHoe.name=Бронзова мотика
+item.BronzeSword.name=Бронзовий меч
+item.BronzeShield.name=Бронзовий щит
+# Glow
+item.GlowstoneHelmet.name=Шолом зі світлокаменю
+item.GlowstoneChestplate.name=Нагрудник зі світлокаменю
+item.GlowstoneLeggings.name=Штани зі світлокаменю
+item.GlowstoneBoots.name=Черевики зі світлокаменю
+item.GlowstonePaxel.name=Мультиінструмент зі світлокаменю
+item.GlowstonePickaxe.name=Кайло зі світлокаменю
+item.GlowstoneAxe.name=Сокира зі світлокаменю
+item.GlowstoneShovel.name=Лопата зі світлокаменю
+item.GlowstoneHoe.name=Мотика зі світлокаменю
+item.GlowstoneSword.name=Меч зі світлокаменю
+item.GlowstoneShield.name=Щит зі світлокаменю
+
+# Steel
+item.SteelHelmet.name=Сталевий шолом
+item.SteelChestplate.name=Сталевий нагрудник
+item.SteelLeggings.name=Сталеві штани
+item.SteelBoots.name=Сталеві черевики
+item.SteelPaxel.name=Сталевий мультиінструмент
+item.SteelPickaxe.name=Сталеве кайло
+item.SteelAxe.name=Сталева сокира
+item.SteelShovel.name=Сталева лопата
+item.SteelHoe.name=Сталева мотика
+item.SteelSword.name=Сталевий меч
+item.SteelShield.name=Сталевий щит
+
+# Lapis Lazuli
+item.LapisLazuliHelmet.name=Лазуритовий шолом
+item.LapisLazuliChestplate.name=Лазуритовий нагрудник
+item.LapisLazuliLeggings.name=Лазуритові штани
+item.LapisLazuliBoots.name=Лазуритові черевики
+item.LapisLazuliPaxel.name=Лазуритовий мультиінструмент
+item.LapisLazuliPickaxe.name=Лазуритове кайло
+item.LapisLazuliAxe.name=Лазуритова сокира
+item.LapisLazuliShovel.name=Лазуритова лопата
+item.LapisLazuliHoe.name=Лазуритова мотика
+item.LapisLazuliSword.name=Лазуритовий меч
+item.LapisShield.name=Лазуритовий щит
+
+# Config Gui
+mekanism.configgui.ctgy.tools.general=Загальні налаштування
+mekanism.configgui.ctgy.tools.armor=Баланс броні
+mekanism.configgui.ctgy.tools.tools=Баланс інструментів
+
+# Config Tooltips
+mekanism.configgui.ctgy.tools.general.tooltip=Загальні налаштування MekanismTools
+mekanism.configgui.ctgy.tools.armor.tooltip=Налаштування захисту та балансу броні MekanismTools
+mekanism.configgui.ctgy.tools.tools.tooltip=Налаштування ефективності та балансу інструментів MekanismTools
+
+# Commands
+cmd.mek.usage=
+cmd.mek.debug.usage=
+cmd.mek.debug=
+cmd.mek.testrules.usage=Встановіть правила світу для тестування (без спавну мобів, зміни дня і ночі та погоди)
+cmd.mek.testrules=Спавн мобів, зміна дня і ночі та погода вимкнені!
+cmd.mek.tp.usage=Телепортуватися до нових координат, зберігши попередню позицію в стек
+cmd.mek.tp=Телепортовано на %d,%d,%d - попередню позицію збережено в стек
+cmd.mek.tp.missing.args=Для телепортації потрібні три координати: x, y, z
+cmd.mek.tpop.usage=Повернутися до останньої позиції в стеку
+cmd.mek.tpop=Повернено до %d,%d,%d; %d позицій у стеку
+cmd.mek.tpop.empty.stack=Немає позицій у стеку
+
+cmd.mek.chunk.usage=
+cmd.mek.chunk.watch.usage=Додати чанк гравця до списку спостереження
+cmd.mek.chunk.watch=Чанк %d,%d додано до списку спостереження
+cmd.mek.chunk.unwatch.usage=Видалити чанк гравця зі списку спостереження
+cmd.mek.chunk.unwatch=Чанк %d,%d видалено зі списку спостереження
+cmd.mek.chunk.clear.usage=Видалити всі чанки зі списку спостереження
+cmd.mek.chunk.clear=%d чанків видалено зі списку спостереження
+cmd.mek.chunk.flush=%d чанків вивантажено
+
+cmd.mekceu.performance_report.title=Mekanism CEu - Звіт про паралельну продуктивність (%s виконань)
+cmd.mekceu.performance_report.reset=Звіт про продуктивність скинуто.
+cmd.mekceu.performance_report.total_executed=Всього виконано: %s
+cmd.mekceu.performance_report.tasks_avg_per_execution=Сер. завдань на виконання: %s
+
+cmd.mekceu.performance_report.total_used_time=Загальний витрачений час: %s мс
+cmd.mekceu.performance_report.used_time_avg_per_execution=Сер. витрачений час на виконання: %s мс
+
+cmd.mekceu.performance_report.task_used_time=Час паралельних операцій: %s мс
+
+cmd.mekceu.performance_report.task_used_time_avg=Сер. час паралельних операцій: %s мс
+cmd.mekceu.performance_report.used_time_avg=Сер. час одного завдання: %s мкс
+
+#chat messages
+chat.mek.multiblockformed=Мультиблок сформовано
+
+#advancements
+advancements.mekanism.advanced_control_circuit.description=Створіть просунуту схему керування
+advancements.mekanism.advanced_control_circuit.title=Просунута технологія
+advancements.mekanism.advanced_qio_drive.description=Збільште пропускну здатність вашого накопичувача QIO
+advancements.mekanism.advanced_qio_drive.title=Сховище високої щільності
+advancements.mekanism.alarm.description=Сигналізація гучна, особливо промислова
+advancements.mekanism.alarm.title=Створюємо шум
+advancements.mekanism.alloy_upgrading.description=Покращуйте транспортери в світі, використовуючи наступний рівень сплаву
+advancements.mekanism.alloy_upgrading.title=Покращення транспортерів на місці
+advancements.mekanism.antimatter.description=Створіть матерію, якої не повинно існувати тут
+advancements.mekanism.antimatter.title=Неможливий матеріал
+advancements.mekanism.atomic_alloy.description=Створіть один із найміцніших сплавів
+advancements.mekanism.atomic_alloy.title=Сплав найвищого рівня
+advancements.mekanism.auto_collection.description=Тягові промені притягують дроп блоків, які вони руйнують
+advancements.mekanism.auto_collection.title=Коротка подорож
+advancements.mekanism.automated_crafting.description=Створіть механізм, що робитиме крафт за вас
+advancements.mekanism.automated_crafting.title=Розумний верстак
+advancements.mekanism.basic_control_circuit.description=Змусити камінь думати
+advancements.mekanism.basic_control_circuit.title=Проста схема
+advancements.mekanism.basic_qio_drive.description=Створіть накопичувач QIO для зберігання предметів
+advancements.mekanism.basic_qio_drive.title=Найпростіший накопичувач
+advancements.mekanism.breathing_assistance.description=Створіть спорядження для підводного дихання та фільтрації води
+advancements.mekanism.breathing_assistance.title=Дихай вільно
+advancements.mekanism.chemical_crystallizer.description=Створіть хімічний кристалізатор, камеру розчинення та мийник
+advancements.mekanism.chemical_crystallizer.title=Максимум користі
+advancements.mekanism.chemical_tank.description=Створіть місце для зберігання хімікатів
+advancements.mekanism.chemical_tank.title=Корисніше, ніж ви думаєте
+advancements.mekanism.chemical_transport.description=Створіть герметичну трубу
+advancements.mekanism.chemical_transport.title=Транспортування хімікатів
+advancements.mekanism.cleaning_gauges.description=Використайте вимірювальну піпетку на будь-якому індикаторі
+advancements.mekanism.cleaning_gauges.title=Очищення індикаторів
+advancements.mekanism.configuration_copying.description=Використайте карту конфігурації для копіювання налаштувань
+advancements.mekanism.configuration_copying.title=Ctrl+C, Ctrl+V
+advancements.mekanism.configurator.description=Створіть конфігуратор для налаштування блоків
+advancements.mekanism.configurator.title=Налаштуйте все
+advancements.mekanism.dictionary.description=Створіть словник, щоб дізнатися про теги навколишнього світу
+advancements.mekanism.dictionary.title=Час навчатися
+advancements.mekanism.digital_miner.description=Перетворіть свого найкращого друга на Цифрового шахтаря
+advancements.mekanism.digital_miner.title=Замкнений всередині
+advancements.mekanism.disassembler.description=Створіть атомний розбирач
+advancements.mekanism.disassembler.title=Потрібно більше швидкості!
+advancements.mekanism.diversion_item_transport.description=Точне управління сторонами
+advancements.mekanism.diversion_item_transport.title=Розгалужувач мережі
+advancements.mekanism.elite_control_circuit.description=Створіть схему з іще більшою кількістю шляхів
+advancements.mekanism.elite_control_circuit.title=Зробіть це точно
+advancements.mekanism.elite_qio_drive.description=Використайте відносність для подальшого збільшення пропускної здатності
+advancements.mekanism.elite_qio_drive.title=Все відносно
+advancements.mekanism.energy_cube.description=Побудуйте енергетичний куб для збереження енергії
+advancements.mekanism.energy_cube.title=Збережіть на потім
+advancements.mekanism.energy_transport.description=Створіть універсальний кабель
+advancements.mekanism.energy_transport.title=Транспортування енергії
+advancements.mekanism.enricher.description=Зробіть камеру збагачення
+advancements.mekanism.enricher.title=Більше з меншого
+advancements.mekanism.environmental_radiation.description=Використайте лічильник Гейгера, щоб побачити забруднення
+advancements.mekanism.environmental_radiation.title=Подумайте про навколишнє середовище
+advancements.mekanism.factory.description=Створіть будь-яку фабрику
+advancements.mekanism.factory.title=Фабрика має зростати!
+advancements.mekanism.fluid_tank.description=Зробіть рідинний резервуар для зберігання рідин
+advancements.mekanism.fluid_tank.title=Більші відра
+advancements.mekanism.fluid_transport.description=Створіть механічну трубу
+advancements.mekanism.fluid_transport.title=Транспортування рідин
+advancements.mekanism.full_canteen.description=Повністю заповніть флягу поживною пастою
+advancements.mekanism.full_canteen.title=Смачна паста
+advancements.mekanism.heat_transport.description=Створіть термодинамічний провідник
+advancements.mekanism.heat_transport.title=Передача тепла
+advancements.mekanism.hydrogen_powered_flight.description=Використайте реактивний ранець, щоб злетіти
+advancements.mekanism.hydrogen_powered_flight.title=Політ на водні
+advancements.mekanism.infused_alloy.description=Наповніть залізо редстоуном
+advancements.mekanism.infused_alloy.title=Сплав, з якого все почалося
+advancements.mekanism.infusing_efficiency.description=Збагачуйте вхідні матеріали для збільшення ефективності
+advancements.mekanism.infusing_efficiency.title=Ефективність наповнення
+advancements.mekanism.injection_chamber.description=Ін'єктуйте хімікати, отримуйте більше ресурсів
+advancements.mekanism.injection_chamber.title=Ін'єкція... 1, 2, 3, 4
+advancements.mekanism.installer.description=Створіть встановлювач будь-якого рівня для покращення фабрик
+advancements.mekanism.installer.title=Покращення на місці
+advancements.mekanism.item_transport.description=Створіть логістичний транспортер
+advancements.mekanism.item_transport.title=Транспортування предметів
+advancements.mekanism.laser.description=Створіть лазер
+advancements.mekanism.laser.title=Стрільба лазерами
+advancements.mekanism.laser_death.description=Загиньте від лазера
+advancements.mekanism.laser_death.title=Стрільба лазерами
+advancements.mekanism.liquifier.description=Створіть харчовий розріджувач
+advancements.mekanism.liquifier.title=Розрідити та випити
+advancements.mekanism.logistical_sorter.description=Фільтруйте предмети під час передачі
+advancements.mekanism.logistical_sorter.title=Просунуте сортування
+advancements.mekanism.machine_security.description=Створіть стіл безпеки
+advancements.mekanism.machine_security.title=Особиста безпека
+advancements.mekanism.materials.description=Знайдіть ресурси Mekanism
+advancements.mekanism.materials.title=Перші кроки
+advancements.mekanism.mekasuit.description=Захистіть себе повним комплектом MekaSuit та Meka-Tool
+advancements.mekanism.mekasuit.title=Механіст
+advancements.mekanism.metallurgic_infuser.description=Створіть металургійний наповнювач
+advancements.mekanism.metallurgic_infuser.title=Металургійний що?
+advancements.mekanism.modification_station.description=Створіть станцію модифікації
+advancements.mekanism.modification_station.title=Створення модифікацій
+advancements.mekanism.moving_blocks.description=Використайте картонну коробку
+advancements.mekanism.moving_blocks.title=Переміщення блоків
+advancements.mekanism.network_reader.description=Перегляньте вміст мережі
+advancements.mekanism.network_reader.title=Читання мережі
+advancements.mekanism.nucleosynthesizer.description=Створіть антипротонний нуклеосинтезатор
+advancements.mekanism.nucleosynthesizer.title=Маніпуляція матерією
+advancements.mekanism.painting_machine.description=Створіть фарбувальну машину
+advancements.mekanism.painting_machine.title=Давайте малювати!
+advancements.mekanism.personal_radiation.description=Використайте дозиметр
+advancements.mekanism.personal_radiation.title=Це було нерозумно
+advancements.mekanism.personal_storage.description=Створіть особисте сховище
+advancements.mekanism.personal_storage.title=Все моє
+advancements.mekanism.playing_with_fire.description=Будьте відповідальними, не спалюйте ліс
+advancements.mekanism.playing_with_fire.title=Гра з вогнем
+advancements.mekanism.plenisher.description=Створіть рідинний наповнювач
+advancements.mekanism.plenisher.title=Тепер у зворотному напрямку
+advancements.mekanism.plutonium.description=Переробіть відходи на плутоній
+advancements.mekanism.plutonium.title=Плутоній, не полоній
+advancements.mekanism.polonium.description=Переробіть відходи на полоній
+advancements.mekanism.polonium.title=Полоній, не плутоній
+advancements.mekanism.portable_qio_dashboard.description=Створіть портативну панель QIO
+advancements.mekanism.portable_qio_dashboard.title=Кому потрібні рюкзаки
+advancements.mekanism.portable_teleporter.description=Створіть портативний телепортер
+advancements.mekanism.portable_teleporter.title=Телепортуй мене, Скотті
+advancements.mekanism.pump.description=Створіть електричну помпу
+advancements.mekanism.pump.title=Збирання рідин
+advancements.mekanism.purification_chamber.description=Створіть камеру очищення
+advancements.mekanism.purification_chamber.title=Продовжуйте очищення
+advancements.mekanism.qio_dashboard.description=Скільки тут вікон крафту?
+advancements.mekanism.qio_dashboard.title=Більше, ніж просто монітор
+advancements.mekanism.qio_drive_array.description=А де ж кабелі?
+advancements.mekanism.qio_drive_array.title=Квантова оркестрація предметів
+advancements.mekanism.qio_exporter.description=Автоматизуйте експорт
+advancements.mekanism.qio_exporter.title=Автоматичний експорт
+advancements.mekanism.qio_importer.description=Автоматизуйте імпорт
+advancements.mekanism.qio_importer.title=Автоматичний імпорт
+advancements.mekanism.qio_redstone_adapter.description=Створіть адаптер редстоуну QIO
+advancements.mekanism.qio_redstone_adapter.title=Автоматизація на основі чисел
+advancements.mekanism.quantum_entangloporter.description=Миттєве переміщення ресурсів
+advancements.mekanism.quantum_entangloporter.title=Квантова заплутаність
+advancements.mekanism.radiation_poisoning.description=Отримайте шкоду від радіації
+advancements.mekanism.radiation_poisoning.title=Можна відчути на смак
+advancements.mekanism.radiation_poisoning_death.description=Загиньте від радіації
+advancements.mekanism.radiation_poisoning_death.title=Не дуже добре, не дуже погано
+advancements.mekanism.radiation_prevention.description=Захистіть себе костюмом хімзахисту
+advancements.mekanism.radiation_prevention.title=Запобігання радіації
+advancements.mekanism.reinforced_alloy.description=Алмази роблять усе кращим!
+advancements.mekanism.reinforced_alloy.title=Зробіть це міцнішим
+advancements.mekanism.restrictive_item_transport.description=Знижує пріоритет шляху
+advancements.mekanism.restrictive_item_transport.title=Обмежувальна мережа
+advancements.mekanism.robit.description=Створіть та розмістіть Робіта
+advancements.mekanism.robit.title=Новий найкращий друг!
+advancements.mekanism.robit_aesthetics.description=Перефарбуйте Робіта
+advancements.mekanism.robit_aesthetics.title=Новий шар фарби
+advancements.mekanism.root.description=Ласкаво просимо до Mekanism!
+advancements.mekanism.root.title=Mekanism
+advancements.mekanism.running_free.description=Захистіть себе від падінь за допомогою Вільних бігунів
+advancements.mekanism.running_free.title=Вільний біг
+advancements.mekanism.sawmill.description=Створіть точну пилораму
+advancements.mekanism.sawmill.title=Ріж Ріж Ріж
+advancements.mekanism.seismic_vibrations.description=Створіть сейсмічний вібратор
+advancements.mekanism.seismic_vibrations.title=Просто вібруємо
+advancements.mekanism.simple_mass_storage.description=Створіть контейнер для зберігання
+advancements.mekanism.simple_mass_storage.title=Базове масове сховище
+advancements.mekanism.sna.description=Створіть сонячний активатор нейтронів
+advancements.mekanism.sna.title=Не використовує нейтрино
+advancements.mekanism.sps.description=Здається небезпечним
+advancements.mekanism.sps.title=Суперкритичний зсув фази?
+advancements.mekanism.stabilizing_chunks.description=Створіть просторовий стабілізатор
+advancements.mekanism.stabilizing_chunks.title=Стабілізація чанків
+advancements.mekanism.steel_casing.description=Використовується в найскладніших машинах
+advancements.mekanism.steel_casing.title=Ідеальний фундамент
+advancements.mekanism.steel_ingot.description=Наповніть залізо вуглецем і повторіть
+advancements.mekanism.steel_ingot.title=Промислова революція
+advancements.mekanism.stone_generator.description=Запобігає діркам у землі з 2021 року
+advancements.mekanism.stone_generator.title=Заміна каменем
+advancements.mekanism.stopping_lasers.description=Блокуйте лазер щитом
+advancements.mekanism.stopping_lasers.title=Зупинка лазерів
+advancements.mekanism.teleportation_core.description=Створіть ядро телепортації
+advancements.mekanism.teleportation_core.title=Основа телепортації
+advancements.mekanism.teleporter.description=Створіть і використайте телепортер
+advancements.mekanism.teleporter.title=Думати порталами
+advancements.mekanism.ultimate_control_circuit.description=Чи запустить це Minecraft?
+advancements.mekanism.ultimate_control_circuit.title=Де мій суперкомп'ютер?
+advancements.mekanism.ultimate_qio_drive.description=Куди йдуть усі ці предмети
+advancements.mekanism.ultimate_qio_drive.title=Виявлено паралельний всесвіт
+advancements.mekanism.upgraded_mekasuit.description=Встановіть максимум модулів у MekaSuit
+advancements.mekanism.upgraded_mekasuit.title=Справжня відданість
+advancements.mekanism.waste_removal.description=Безпечне зберігання радіоактивних відходів
+advancements.mekanism.waste_removal.title=Видалення відходів
+advancements.mekanism.yellow_cake.description=Створіть торт, який не можна їсти
+advancements.mekanism.yellow_cake.title=Дивись, не їж
+
+advancements.mekanismtools.alternate_armor.description=Створіть будь-яку броню з Mekanism Tools
+advancements.mekanismtools.alternate_armor.title=Більше видів броні!
+advancements.mekanismtools.alternate_tools.description=Створіть будь-який інструмент або зброю з Mekanism Tools
+advancements.mekanismtools.alternate_tools.title=Більше видів інструментів!
+advancements.mekanismtools.better_than_netherite.description=Захистіть себе очищеною обсидіановою бронею
+advancements.mekanismtools.better_than_netherite.title=Краще за незерит
+advancements.mekanismtools.loved_by_piglins.description=Світиться яскравіше за золото!
+advancements.mekanismtools.loved_by_piglins.title=Улюбленець піглінів
+advancements.mekanismtools.not_enough_shielding.description=Створіть будь-який щит з Mekanism Tools
+advancements.mekanismtools.not_enough_shielding.title=Недостатньо щитів
+advancements.mekanismtools.paxel.description=Створіть мультиінструмент (Pickaxe, Axe, Shovel)
+advancements.mekanismtools.paxel.title=Мультиінструмент
+
+advancements.mekanismgenerators.burn_the_gas.description=Створіть газовий генератор
+advancements.mekanismgenerators.burn_the_gas.title=Спалюйте газ
+advancements.mekanismgenerators.heat_generator.description=Створіть тепловий генератор
+advancements.mekanismgenerators.heat_generator.title=Ваш перший генератор
+advancements.mekanismgenerators.solar_generator.description=Відновлювана денна енергія
+advancements.mekanismgenerators.solar_generator.title=Сила сонця
+advancements.mekanismgenerators.wind_generator.description=Сподіваюся, поруч є вітер
+advancements.mekanismgenerators.wind_generator.title=Крутися, крихітко
+
+#subtitle mekanism
+sound_event.mekanism.item.flamethrower.active=Вогнемет горить
+sound_event.mekanism.item.flamethrower.idle=Вогнемет шипить
+sound_event.mekanism.item.gravitational_modulation_unit=Гравітація модулюється
+sound_event.mekanism.item.hydraulic=Гідравліка працює
+sound_event.mekanism.item.jetpack=Реактивний ранець горить
+sound_event.mekanism.item.scuba_mask=Потік повітря
+sound_event.mekanism.tile.machine.antiprotonic_nucleosynthesizer=Нуклеосинтезатор гуде
+sound_event.mekanism.tile.machine.chargepad=Зарядна панель гуде
+sound_event.mekanism.tile.machine.chemical_crystallizer=Кристалізатор гуде
+sound_event.mekanism.tile.machine.chemical_dissolution_chamber=Камера розчинення гуде
+sound_event.mekanism.tile.machine.chemical_infuser=Хім. наповнювач гуде
+sound_event.mekanism.tile.machine.chemical_injection_chamber=Камера ін'єкції обробляє
+sound_event.mekanism.tile.machine.chemical_oxidizer=Окислювач гуде
+sound_event.mekanism.tile.machine.chemical_washer=Мийник гуде
+sound_event.mekanism.tile.machine.combiner=Об'єднувач гуде
+sound_event.mekanism.tile.machine.compressor=Компресор гуде
+sound_event.mekanism.tile.machine.crusher=Дробарка брязкає
+sound_event.mekanism.tile.machine.electrolytic_separator=Сепаратор працює
+sound_event.mekanism.tile.machine.energized_smelter=Піч гуде
+sound_event.mekanism.tile.machine.enrichment_chamber=Камера збагачення гуде
+sound_event.mekanism.tile.machine.industrial_alarm=Сигналізація звучить
+sound_event.mekanism.tile.machine.isotopic_centrifuge=Центрифуга обертається
+sound_event.mekanism.tile.machine.laser=Лазер гуде
+sound_event.mekanism.tile.machine.logistical_sorter=Сортувальник клацає
+sound_event.mekanism.tile.machine.metallurgic_infuser=Металургійний наповнювач гуде
+sound_event.mekanism.tile.machine.nutritional_liquifier=Поживні речовини розріджуються
+sound_event.mekanism.tile.machine.painting_machine=Фарбувальна машина розпилює
+sound_event.mekanism.tile.machine.pigment_extractor=Екстрактор пігментів працює
+sound_event.mekanism.tile.machine.pigment_mixer=Міксер пігментів змішує
+sound_event.mekanism.tile.machine.precision_sawmill=Пилорама ріже
+sound_event.mekanism.tile.machine.pressurized_reaction_chamber=Камера реакції гуде
+sound_event.mekanism.tile.machine.purification_chamber=Очищувач гуде
+sound_event.mekanism.tile.machine.resistive_heater=Обігрівач гуде
+sound_event.mekanism.tile.machine.rotary_condensentrator=Конденсатор обертається
+sound_event.mekanism.tile.machine.sps=SPS гуде
+
+#subtitle mekanism generators
+sound_event.mekanismgenerators.tile.generator.bio=Біогенератор гуде
+sound_event.mekanismgenerators.tile.generator.gas=Газовий генератор гуде
+sound_event.mekanismgenerators.tile.generator.heat=Тепловий генератор гуде
+sound_event.mekanismgenerators.tile.generator.solar=Сонячний генератор гуде
+sound_event.mekanismgenerators.tile.generator.wind=Вітрогенератор шумить
+sound_event.mekanismgenerators.tile.machine.fission_reactor=Реактор поділу гуде
+sound_event.mekanismgenerators.tile.machine.fusion_reactor=Термоядерний реактор гуде
+!=!
+gui.gas:=Газ:
+
+#holiday
+holiday.mekanism.christmas.1=Щасливого Різдва,
+holiday.mekanism.christmas.2=Нехай у вас буде багато різдвяного настрою
+holiday.mekanism.christmas.3=і спокійних свят з вашою
+holiday.mekanism.christmas.4=сім'єю :)
+holiday.mekanism.may_4.1=Хай прибуде з тобою сила 4-го травня,
+holiday.mekanism.new_year.1=З Новим роком
+holiday.mekanism.new_year.2=Найкращі побажання у цьому
+holiday.mekanism.new_year.3=новому та захоплюючому %s році
+
+
+tooltip.hold_for_modules=утримуйте для модулів
+item.ModuleBase.name=Основа модуля
+item.module.energyunit.name=Енергетичний модуль
+module.EnergyUnit.desc=Збільшує максимальну місткість енергії.
+item.module.attack_damage.name=Модуль посилення атаки
+module.attack_damage.desc=Бонусна шкода від атаки
+item.module.radiation_shielding_unit.name=Модуль радіаційного захисту
+module.radiation_shielding_unit.desc=Забезпечує товсте, радіаційно стійке металеве покриття для броні MekaSuit.
+item.module.solarrechargingunit.name=Модуль сонячної підзарядки
+module.SolarRechargingUnit.desc=Використовує енергію сонця для заряджання вашого MekaSuit.
+item.module.electrolyticbreathingunit.name=Електролітичний дихальний модуль
+module.ElectrolyticBreathingUnit.desc=Використовує електроліз для створення придатного для дихання кисню з води.
+item.module.visionenhancementunit.name=Модуль покращення зору
+module.VisionEnhancementUnit.desc=Освітлює навколишнє середовище, дозволяючи бачити в темряві.
+item.module.inhalationpurificationunit.name=Модуль очищення дихання
+module.InhalationPurificationUnit.desc=Створює мініатюрне електромагнітне поле, що запобігає впливу певних зіллів.
+item.module.nutritionalinjectionunit.name=Модуль ін'єкції харчування
+module.NutritionalInjectionUnit.desc=Автоматично годує гравця поживною пастою при голоді.
+item.module.jetpack_unit.name=Модуль реактивного ранця
+module.jetpack_unit.desc=Додає водневий реактивний ранець до MekaSuit.
+item.module.charge_distribution_unit.name=Модуль розподілу заряду
+module.charge_distribution_unit.desc=Рівномірно розподіляє заряд по всій надітій броні MekaSuit.
+item.module.gyroscopic_stabilization_unit.name=Гіроскопічний стабілізаційний модуль
+module.gyroscopic_stabilization_unit.desc=Дозволяє користувачеві діяти так, ніби він стоїть на твердій землі.
+item.module_health_regeneration_unit.name=Модуль регенерації здоров'я
+module.mekanism.health_regeneration_unit=Модуль регенерації здоров'я
+module.geothermal_generator_unit.desc=Використовує геотермальну енергію з навколишнього середовища. Встановіть кілька для більшого ефекту.
+item.module.hydrostatic_repulsor_unit.name=Гідростатичний репульсорний модуль
+module.hydrostatic_repulsor_unit.desc=Відштовхує воду, зменшуючи опір при русі в ній.
+item.module.locomotive_boosting_unit.name=Локомотивний модуль прискорення
+module.locomotive_boosting_unit.desc=Збільшує швидкість бігу та відстань стрибка.
+item.module.hydraulic_propulsion_unit.name=Гідравлічний руховий модуль
+module.hydraulic_propulsion_unit.desc=Дозволяє крокувати та стрибати вище.
+item.module.frost_walker_unit.name=Модуль морозної ходи
+module.frost_walker_unit.desc=Заморожує воду під ногами за допомогою рідкого водню.
+item.module.arrowenergy_unit.name=Модуль енергетичних стріл
+module.arrowenergy_unit.desc=Стріляє стрілами з чистої енергії. Усуває потребу в боєприпасах.
+item.module.arrowvelocity_unit.name=Модуль швидкості стріл
+module.arrowvelocity_unit.desc=Множить швидкість стріл.
+item.module.autofire_unit.name=Модуль автовогню
+module.autofire_unit.desc=Автоматично стріляє, коли Мека-Лук повністю заряджений.
+item.module.drawspeed_unit.name=Модуль швидкості натягу
+module.drawspeed_unit.desc=Збільшує швидкість натягу Мека-Лука.
+item.module.multiplearrowsunit.name=Модуль складених стріл
+module.MultiplearrowsUnit.desc=За один постріл випускається більше стріл.
+item.module.gravitational_modulating_unit.name=Модуль гравітаційної модуляції
+module.gravitational_modulating_unit.desc=Дозволяє долати гравітацію завдяки енергії антиматерії.
+tooltip.module.jump_boost.name=Посилення стрибка:
+tooltip.module.step_assist.name=Допомога кроку:
+tooltip.meka_head.storedEnergy=Енергія шолома MekaSuit:
+tooltip.meka_body.storedEnergy=Енергія нагрудника MekaSuit:
+tooltip.meka_legs.storedEnergy=Енергія штанів MekaSuit:
+tooltip.meka_feet.storedEnergy=Енергія взуття MekaSuit:
+tooltip.autoeatgas.stored=Запас модуля автоматичного годування:
+item.MekAsuitHelmet.name=Шолом MekaSuit
+item.MekAsuitChestplate.name=Нагрудник MekaSuit
+item.MekAsuitLeggings.name=Штани MekaSuit
+item.MekAsuitBoots.name=Черевики MekaSuit
+tile.MachineBlock4.Modification_Station.name=Станція модифікації
+tooltip.Modification_Station=Просунутий верстак для встановлення модулів (наприклад, для MekaSuit!).
+tile.MachineBlock4.radioactive_waste_barrel.name=Бочка для радіоактивних відходів
+tooltip.radioactive_waste_barrel=Бочка, яку можна використовувати для безпечного зберігання радіоактивних відходів.
+tile.MachineBlock4.dimensional_stabilizer.name=Просторовий стабілізатор
+tooltip.dimensional_stabilizer=Механізм, що підтримує чанки завантаженими за рахунок енергії.
+tooltip.meka_head.Emergency_rescue=Екстрений порятунок:
+item.module.health_regeneration.name=Модуль регенерації здоров'я
+module.Health_regeneration.desc=Автоматично відновлює ОЗ
+
+item.module.energy_shield_unit.name=Модуль енергетичного щита
+module.Energy_shield_unit.desc=Використовує щит Draconic Evolution для блокування шкоди
+item.module.magnetizer_unit.name=Магнітний модуль
+module.Magnetizer_unit.desc=Прикріплюється до тіла
+
+config.field.armorEnergyShield.entry=Енергетичний щит
+config.field.armorEnergyShield.description=Чи дозволено використання енергетичного щита
+config.field.armorRadiationShielding.entry=Електромагнітний радіаційний захист
+config.field.armorRadiationShielding.description=Чи дозволено вмикати електромагнітний радіаційний захист
+config.field.SolarRechargingUnit.entry=Модуль сонячної підзарядки
+config.field.SolarRechargingUnit.description=Чи дозволено вмикати модуль сонячної підзарядки
+config.field.ElectrolyticBreathingUnit.entry=Електролітичний дихальний модуль
+config.field.ElectrolyticBreathingUnit.description=Чи дозволено електролітичний дихальний апарат
+config.field.VisionAuto.entry=Автоматичний режим нічного бачення
+config.field.VisionAuto.description=Чи дозволено автоматичний режим нічного бачення
+config.field.Vision.entry=Завжди увімкнений режим нічного бачення
+config.field.Vision.description=Чи використовувати режим нічного бачення безпосередньо
+config.field.InhalationBad.entry=Очищення дихання (негативні ефекти)
+config.field.InhalationBad.description=Знімає негативні ефекти
+config.field.InhalationGood.entry=Очищення дихання (позитивні ефекти)
+config.field.InhalationGood.description=Знімає позитивні ефекти
+config.field.Nutritional.entry=Модуль ін'єкції харчування
+config.field.Nutritional.description=Автоматичне годування збереженою поживною пастою
+config.field.emergencyRescue.entry=Модуль екстреного порятунку
+config.field.emergencyRescue.description=Чи дозволено модуль екстреного порятунку
+config.field.Interception.entry=Модуль просунутої системи щита та перехоплення
+config.field.Interception.description=Чи дозволено модуль просунутої системи щита
+config.field.health.entry=Модуль регенерації здоров'я
+config.field.health.description=Чи дозволено модуль регенерації здоров'я
+config.field.Charge.entry=Модуль розподілу заряду
+config.field.Charge.description=Чи дозволено модуль розподілу заряду
+config.field.Gyroscopic.entry=Гіроскопічний стабілізаційний модуль
+config.field.Gyroscopic.description=Чи дозволено гіроскопічний стабілізаційний модуль
+config.field.Geothermal.entry=Модуль геотермального генератора
+config.field.Geothermal.description=Чи дозволено модуль геотермального генератора
+config.field.Locomotive.entry=Локомотивний модуль прискорення
+config.field.Locomotive.description=Чи дозволено локомотивний модуль прискорення
+config.field.hydrostatic.entry=Гідростатичний репульсорний модуль
+config.field.hydrostatic.description=Чи дозволено гідростатичний репульсорний модуль
+config.field.frost.entry=Модуль морозної ходи
+config.field.frost.description=Чи дозволено модуль морозної ходи
+config.field.armorMagnetic.entry=Магнітний модуль
+config.field.armorMagnetic.description=Чи дозволено магнітний модуль
+direction.north=Північ
+direction.south=Південь
+direction.west=Захід
+direction.east=Схід
+direction.north.short=Пн
+direction.south.short=Пд
+direction.west.short=Зх
+direction.east.short=Сх
+generic.mekanism.percent=%
+gui.on_caps=УВІМК
+gui.off_caps=ВИМК
+generic.mekanism.list= -
+jetpack.mekanism.mode_change=Режим реактивного ранця змінено на:
+
+death.attack.mekanism.laser=%s спопелили.
+death.attack.mekanism.laser.player=%s спопелили під час спроби втечі від %s.
+
+module.mekanism.conflicting=Конфліктує з:
+module.mekanism.supported=Підтримується:
+module.mekanism.stackable=Можна накопичувати:
+tooltip.hold_for_supported_items=для перегляду підтримуваних предметів та конфліктуючих модулів.
+item.meka_tool.name=Мека-Інструмент
+item.mekasuit_bodyarmor.name=Нагрудник MekaSuit
+item.mekasuit_boots.name=Черевики MekaSuit
+item.mekasuit_helmet.name=Шолом MekaSuit
+item.mekasuit_pants.name=Штани MekaSuit
+item.hdpe_elytra.name=Елітри, посилені HDPE
+
+item.module_attack_amplification_unit.name=Модуль посилення атаки
+item.module_charge_distribution_unit.name=Модуль розподілу заряду
+item.module_dosimeter_unit.name=Модуль дозиметра
+item.module_electrolytic_breathing_unit.name=Електролітичний дихальний модуль
+item.module_elytra_unit.name=Модуль елітр
+item.module_energy_unit.name=Енергетичний модуль
+item.module_excavation_escalation_unit.name=Модуль прискорення видобутку
+item.module_farming_unit.name=Фермерський модуль
+item.module_frost_walker_unit.name=Модуль морозної ходи
+item.module_geiger_unit.name=Модуль Гейгера
+item.module_gravitational_modulating_unit.name=Модуль гравітаційної модуляції
+item.module_jetpack_unit.name=Модуль реактивного ранця
+item.module_laser_dissipation_unit.name=Модуль розсіювання лазера
+item.module_locomotive_boosting_unit.name=Локомотивний модуль прискорення
+item.module_magnetic_attraction_unit.name=Модуль магнітного тяжіння
+item.module_radiation_shielding_unit.name=Модуль радіаційного захисту
+item.module_shearing_unit.name=Модуль стрижки
+item.module_silk_touch_unit.name=Модуль шовкового дотику
+item.module_solar_recharging_unit.name=Модуль сонячної підзарядки
+item.module_teleportation_unit.name=Модуль телепортації
+item.module_vein_mining_unit.name=Модуль видобутку жил
+item.module_vision_enhancement_unit.name=Модуль покращення зору
+item.module_nutritional_injection_unit.name=Модуль ін'єкції харчування
+item.module_color_modulation_unit.name=Модуль кольорової модуляції
+item.module_inhalation_purification_unit.name=Модуль очищення дихання
+item.module_gyroscopic_stabilization_unit.name=Гіроскопічний стабілізаційний модуль
+item.module_hydrostatic_repulsor_unit.name=Гідростатичний репульсорний модуль
+item.module_hydraulic_propulsion_unit.name=Гідравлічний руховий модуль
+
+item.module_motorized_servo_unit.name=Модуль моторизованого сервоприводу
+item.module_blasting_unit.name=Вибуховий модуль
+item.module_fortune_unit.name=Модуль збагачення руди
+item.module_geothermal_generator_unit.name=Модуль геотермального генератора
+
+module.mekanism.attack_amplification_unit=Модуль посилення атаки
+module.mekanism.attack_damage=Шкода від атаки
+module.mekanism.breathing.held=Заповнення в руках
+module.mekanism.charge_distribution_unit=Модуль розподілу заряду
+module.mekanism.charge_inventory=Заряджання інвентарю
+module.mekanism.charge_suit=Заряджання костюма
+module.mekanism.damage=Шкода:
+module.mekanism.disabled_lower=вимкнено
+module.mekanism.dosimeter_unit=Модуль дозиметра
+module.mekanism.efficiency=Ефективність
+module.mekanism.electrolytic_breathing_unit=Електролітичний дихальний модуль
+module.mekanism.elytra_unit=Модуль елітр
+module.mekanism.enabled=Увімкнено
+module.mekanism.enabled_lower=увімкнено
+module.mekanism.energy_unit=Енергетичний модуль
+module.mekanism.excavation_escalation_unit=Модуль прискорення видобутку
+module.mekanism.exclusive=(Ексклюзивний модуль)
+module.mekanism.extended_enabled=Розширений видобуток жил:
+module.mekanism.extended_mode=Розширений режим
+module.mekanism.farming_radius=Радіус фермерства
+module.mekanism.farming_unit=Фермерський модуль
+module.mekanism.frost_walker_unit=Модуль морозної ходи
+module.mekanism.geiger_unit=Модуль Гейгера
+module.mekanism.gravitational_modulating_unit=Модуль гравітаційної модуляції
+module.mekanism.gravitational_modulation=Гравітаційна модуляція
+module.mekanism.handle_mode_change=Кнопка перемикання режиму
+module.mekanism.hydraulic_propulsion_unit=Гідравлічний руховий модуль
+module.mekanism.inhalation_purification_unit=Модуль очищення дихання
+module.mekanism.installed=Встановлено:
+module.mekanism.jetpack_mode=Режим реактивного ранця
+module.mekanism.jetpack_unit=Модуль реактивного ранця
+module.mekanism.jump_boost=Посилення стрибка
+module.mekanism.laser_dissipation_unit=Модуль розсіювання лазера
+module.mekanism.laser_cutter_unit=Модуль лазерного різака
+module.mekanism.locomotive_boosting_unit=Локомотивний модуль прискорення
+module.mekanism.magnetic_attraction=Магнітне тяжіння
+module.mekanism.magnetic_attraction_unit=Модуль магнітного тяжіння
+module.mekanism.mining_range=Радіус копання
+module.mekanism.mode=Режим
+module.mekanism.mode_change= змінено на:
+module.mekanism.module_tweaker=Налаштування модуля
+module.mekanism.nutritional_injection_unit=Модуль ін'єкції харчування
+module.mekanism.purification.beneficial=Видалити позитивні
+module.mekanism.purification.harmful=Видалити негативні
+module.mekanism.purification.neutral=Видалити нейтральні
+module.mekanism.radiation_shielding_unit=Модуль радіаційного захисту
+module.mekanism.range=Дальність
+module.mekanism.render_hud=Показати в HUD
+module.mekanism.shearing_unit=Модуль стрижки
+module.mekanism.silk_touch_unit=Модуль шовкового дотику
+module.mekanism.solar_recharging_unit=Модуль сонячної підзарядки
+module.mekanism.speed_boost=Прискорення швидкості
+module.mekanism.sprint_boost=Прискорення бігу
+module.mekanism.step_assist=Допомога кроку
+module.mekanism.teleportation_requires_block=Потребує цілі-блоку
+module.mekanism.teleportation_unit=Модуль телепортації
+module.mekanism.vein_mining_unit=Модуль видобутку жил
+module.mekanism.vision_enhancement=Покращення зору
+module.mekanism.vision_enhancement_unit=Модуль покращення зору
+module.mekanism.color_modulation_unit=Модуль кольорової модуляції
+module.mekanism.gyroscopic_stabilization_unit=Гіроскопічний стабілізаційний модуль
+module.mekanism.hydrostatic_repulsor_unit=Гідростатичний репульсорний модуль
+module.mekanism.blasting_unit=Вибуховий модуль
+module.mekanism.geothermal_generator_unit=Модуль геотермального генератора
+
+description.mekanism.attack_amplification_unit=Посилює ближні атаки на гравців або мобів.
+description.mekanism.charge_distribution_unit=Рівномірно розподіляє заряд по всій надітій броні MekaSuit.
+description.mekanism.dosimeter_unit=Відображає поточну дозу радіації користувача в HUD.
+description.mekanism.electrolytic_breathing_unit=Використовує електроліз для створення кисню. Також наповнює модуль реактивного ранця воднем.
+description.mekanism.elytra_unit=Додає елітри з HDPE до MekaSuit.
+description.mekanism.energy_unit=Збільшує максимальну місткість енергії.
+description.mekanism.excavation_escalation_unit=Збільшує швидкість копання будь-яких блоків.
+description.mekanism.farming_unit=Дозволяє орати та вирівнювати землю.
+description.mekanism.frost_walker_unit=Заморожує воду під ногами. Встановіть кілька для більшого радіусу.
+description.mekanism.geiger_unit=Відображає рівень навколишньої радіації в HUD.
+description.mekanism.gravitational_modulating_unit=Дозволяє долати гравітацію завдяки енергії антиматерії.
+description.mekanism.hydraulic_propulsion_unit=Дозволяє крокувати та стрибати вище.
+description.mekanism.inhalation_purification_unit=Створює поле навколо дихального апарату, запобігаючи впливу зіллів.
+description.mekanism.jetpack_unit=Додає водневий реактивний ранець.
+description.mekanism.laser_dissipation_unit=Заломлює та безпечно розсіює лазери, які потрапляють у MekaSuit.
+description.mekanism.locomotive_boosting_unit=Збільшує швидкість бігу та відстань стрибка.
+description.mekanism.magnetic_attraction_unit=Притягує далекі предмети до гравця.
+description.mekanism.nutritional_injection_unit=Автоматично годує гравця поживною пастою при голоді.
+description.mekanism.radiation_shielding_unit=Забезпечує радіаційно стійке покриття броні.
+description.mekanism.shearing_unit=Дозволяє створювати енергетичні леза для точного різання.
+description.mekanism.silk_touch_unit=Дозволяє видобувати блоки у їхньому первісному вигляді.
+description.mekanism.solar_recharging_unit=Заряджає MekaSuit енергією сонця.
+description.mekanism.teleportation_unit=Забезпечує швидке переміщення до сусідніх блоків.
+description.mekanism.vein_mining_unit=Дозволяє швидко видобувати жили руд та зрубувати дерева.
+description.mekanism.vision_enhancement_unit=Освітлює навколишнє середовище.
+description.mekanism.color_modulation_unit=Використовує голографічні проектори для зміни кольору MekaSuit.
+description.mekanism.gyroscopic_stabilization_unit=Дозволяє діяти так, ніби користувач стоїть на землі.
+description.mekanism.hydrostatic_repulsor_unit=Відштовхує воду, зменшуючи опір.
+description.mekanism.blasting_unit=Використовує контрольовані вибухи для руйнування блоків.
+description.mekanism.fortune_unit=Збільшує вихід руди.
+description.mekanism.motorized_servo_unit=Зменшує напругу при присіданні за допомогою сервоприводів.
+description.mekanism.geothermal_generator_unit=Використовує геотермальну енергію. Збільшує захист від тепла.
+description.mekanism.health_regeneration_unit=Коли у гравця мало здоров'я, автоматично відновлює його.
+
+disassembler.mekanism.efficiency=Ефективність:
+generic.mekanism.stored=:
+gui.mekanism.true=Істина
+gui.mekanism.false=Хиба
+module.mekanism.jetpack_mult=Множник тяги
+module.mekanism.jetpack_mult.hover=Множник тяги зависання
+module.mekanism.radiation_clearance=Очищення радіації
+module.mekanism.radiation_immunity=Радіаційний захист
+module.mekanism.radiation_range_clearing=Радіус очищення радіації
+module.mekanism.swim_boost=Прискорення плавання
+module.mekanism.motorized_servo_unit=Модуль моторизованого сервоприводу
+module.mekanism.fortune_unit=Модуль збагачення руди
+need.installation.mod=Для коректної роботи необхідне встановлення Mekanism Mixin Help.
+module.mekanism.magnetic_unit=Магнітний модуль
+item.module_magnetic_unit.name=Магнітний модуль
+description.mekanism.magnetic_unit=Гарантує, що предмети залишаються прикріпленими до тіла.
+status.mekanism.format=Статус:
+boolean.mekanism.active=Активно
+gas_mode.mekanism.idle=Простій
+sps.mekanism.energy_input=Вхід енергії:
+gui.mekanism.process_rate_mb=Швидкість обробки:
+tile.MachineBlock4.sps.name=Суперкритичний фазовий зсувач
+fluid.fissilefuel=Рідке подільне паливо
+fluid.nuclearwaste=Рідини ядерних відходів
+tooltip.sps=Механізм, що виробляє антиматерію, споживаючи багато енергії та полонію.
+gui.mekanism.stabilizer.center=Чанк (%s) підтримується завантаженим
+gui.mekanism.stabilizer.radius.enable=Клік лівою кнопкою, щоб завантажити всі чанки навколо (%s) з радіусом %s
+gui.mekanism.stabilizer.radius.disable=Клік правою кнопкою, щоб припинити завантаження всіх чанків навколо (%s) з радіусом %s
+gui.mekanism.stabilizer.toggle_loading=Стан завантаження чанка (%s): %s
+gui.mekanism.stabilizer.chunks_loaded=Завантажені чанки
+tooltip.SpsCasing=Структурний корпус, що використовується в мультиблоці SPS.
+tooltip.SpsPort=Порт для входу полонію та виходу антиматерії в мультиблоці SPS.
+radial.mekanism.excavation_speed=Швидкість видобутку
+radial.mekanism.excavation_speed.extreme=Екстремальна
+radial.mekanism.excavation_speed.fast=Швидка
+radial.mekanism.excavation_speed.normal=Нормальна
+radial.mekanism.excavation_speed.off=Вимкнена
+radial.mekanism.excavation_speed.slow=Повільна
+radial.mekanism.excavation_speed.super_fast=Супершвидка
+radial.mekanism.vein=Видобуток жил
+radial.mekanism.vein.extended=Розширена жила
+radial.mekanism.vein.normal=Жила
+gui.mekanism.back=Назад
+radial.mekanism.blasting_power=Потужність вибуху
+radial.mekanism.blasting_power.extreme=Екстремальна
+radial.mekanism.blasting_power.high=Висока
+radial.mekanism.blasting_power.low=Низька
+radial.mekanism.blasting_power.med=Середня
+radial.mekanism.blasting_power.off=Вимкнена
+module.mekanism.blasting_enabled=Радіус вибуху:
+module.mekanism.blast_radius=Радіус вибуху
+gui.mekanism.liquid=Рідина:
+gui.mekanism.gas=Газ:
+
+# Machine name
+tile.Smelting.Basic.Factory=Базова плавильна фабрика
+tile.Enriching.Basic.Factory=Базова збагачувальна фабрика
+tile.Crushing.Basic.Factory=Базова дробильна фабрика
+tile.Compressing.Basic.Factory=Базова фабрика стискання
+tile.Combining.Basic.Factory=Базова об'єднувальна фабрика
+tile.Purifying.Basic.Factory=Базова очисна фабрика
+tile.Injecting.Basic.Factory=Базова ін'єкційна фабрика
+tile.Infusing.Basic.Factory=Базова фабрика наповнення
+tile.Sawing.Basic.Factory=Базова розпилювальна фабрика
+tile.Farm.Basic.Factory=Базова сільськогосподарська фабрика
+tile.Stamping.Basic.Factory=Базова штампувальна фабрика
+tile.Rolling.Basic.Factory=Базова прокатна фабрика
+tile.Brushed.Basic.Factory=Базова волочильна фабрика
+tile.Turning.Basic.Factory=Базова токарна фабрика
+tile.Alloy.Basic.Factory=Базова фабрика сплавів
+tile.Extractor.Basic.Factory=Базова екстракційна фабрика
+tile.Separator.Basic.Factory=Базова сепараційна фабрика
+tile.Recycler.Basic.Factory=Базова фабрика переробки
+tile.Dissolution.Basic.Factory=Базова фабрика розчинення
+tile.Crystallizer.Basic.Factory=Базова фабрика кристалізації
+tile.PRC.Basic.Factory=Базова фабрика під тиском
+tile.Oxidizer.Basic.Factory=Базова фабрика окислення
+tile.Nucleosynthesizer.Basic.Factory=Базова фабрика нуклеосинтезу
+tile.Washer.Basic.Factory=Базова фабрика миття
+
+tile.Smelting.Advanced.Factory=Просунута плавильна фабрика
+tile.Enriching.Advanced.Factory=Просунута збагачувальна фабрика
+tile.Crushing.Advanced.Factory=Просунута дробильна фабрика
+tile.Compressing.Advanced.Factory=Просунута фабрика стискання
+tile.Combining.Advanced.Factory=Просунута об'єднувальна фабрика
+tile.Purifying.Advanced.Factory=Просунута очисна фабрика
+tile.Injecting.Advanced.Factory=Просунута ін'єкційна фабрика
+tile.Infusing.Advanced.Factory=Просунута фабрика наповнення
+tile.Sawing.Advanced.Factory=Просунута розпилювальна фабрика
+tile.Farm.Advanced.Factory=Просунута сільськогосподарська фабрика
+tile.Stamping.Advanced.Factory=Просунута штампувальна фабрика
+tile.Rolling.Advanced.Factory=Просунута прокатна фабрика
+tile.Brushed.Advanced.Factory=Просунута волочильна фабрика
+tile.Turning.Advanced.Factory=Просунута токарна фабрика
+tile.Alloy.Advanced.Factory=Просунута фабрика сплавів
+tile.Extractor.Advanced.Factory=Просунута екстракційна фабрика
+tile.Separator.Advanced.Factory=Просунута сепараційна фабрика
+tile.Recycler.Advanced.Factory=Просунута фабрика переробки
+tile.Dissolution.Advanced.Factory=Просунута фабрика розчинення
+tile.Crystallizer.Advanced.Factory=Просунута фабрика кристалізації
+tile.PRC.Advanced.Factory=Просунута фабрика під тиском
+tile.Oxidizer.Advanced.Factory=Просунута фабрика окислення
+tile.Nucleosynthesizer.Advanced.Factory=Просунута фабрика нуклеосинтезу
+tile.Washer.Advanced.Factory=Просунута фабрика миття
+
+tile.Smelting.Elite.Factory=Елітна плавильна фабрика
+tile.Enriching.Elite.Factory=Елітна збагачувальна фабрика
+tile.Crushing.Elite.Factory=Елітна дробильна фабрика
+tile.Compressing.Elite.Factory=Елітна фабрика стискання
+tile.Combining.Elite.Factory=Елітна об'єднувальна фабрика
+tile.Purifying.Elite.Factory=Елітна очисна фабрика
+tile.Injecting.Elite.Factory=Елітна ін'єкційна фабрика
+tile.Infusing.Elite.Factory=Елітна фабрика наповнення
+tile.Sawing.Elite.Factory=Елітна розпилювальна фабрика
+tile.Farm.Elite.Factory=Елітна сільськогосподарська фабрика
+tile.Stamping.Elite.Factory=Елітна штампувальна фабрика
+tile.Rolling.Elite.Factory=Елітна прокатна фабрика
+tile.Brushed.Elite.Factory=Елітна волочильна фабрика
+tile.Turning.Elite.Factory=Елітна токарна фабрика
+tile.Alloy.Elite.Factory=Елітна фабрика сплавів
+tile.Extractor.Elite.Factory=Елітна екстракційна фабрика
+tile.Separator.Elite.Factory=Елітна сепараційна фабрика
+tile.Recycler.Elite.Factory=Елітна фабрика переробки
+tile.Dissolution.Elite.Factory=Елітна фабрика розчинення
+tile.Crystallizer.Elite.Factory=Елітна фабрика кристалізації
+tile.PRC.Elite.Factory=Елітна фабрика під тиском
+tile.Oxidizer.Elite.Factory=Елітна фабрика окислення
+tile.Nucleosynthesizer.Elite.Factory=Елітна фабрика нуклеосинтезу
+tile.Washer.Elite.Factory=Елітна фабрика миття
+
+tile.Smelting.Ultimate.Factory=Абсолютна плавильна фабрика
+tile.Enriching.Ultimate.Factory=Абсолютна збагачувальна фабрика
+tile.Crushing.Ultimate.Factory=Абсолютна дробильна фабрика
+tile.Compressing.Ultimate.Factory=Абсолютна фабрика стискання
+tile.Combining.Ultimate.Factory=Абсолютна об'єднувальна фабрика
+tile.Purifying.Ultimate.Factory=Абсолютна очисна фабрика
+tile.Injecting.Ultimate.Factory=Абсолютна ін'єкційна фабрика
+tile.Infusing.Ultimate.Factory=Абсолютна фабрика наповнення
+tile.Sawing.Ultimate.Factory=Абсолютна розпилювальна фабрика
+tile.Farm.Ultimate.Factory=Абсолютна сільськогосподарська фабрика
+tile.Stamping.Ultimate.Factory=Абсолютна штампувальна фабрика
+tile.Rolling.Ultimate.Factory=Абсолютна прокатна фабрика
+tile.Brushed.Ultimate.Factory=Абсолютна волочильна фабрика
+tile.Turning.Ultimate.Factory=Абсолютна токарна фабрика
+tile.Alloy.Ultimate.Factory=Абсолютна фабрика сплавів
+tile.Extractor.Ultimate.Factory=Абсолютна екстракційна фабрика
+tile.Separator.Ultimate.Factory=Абсолютна сепараційна фабрика
+tile.Recycler.Ultimate.Factory=Абсолютна фабрика переробки
+tile.Dissolution.Ultimate.Factory=Абсолютна фабрика розчинення
+tile.Crystallizer.Ultimate.Factory=Абсолютна фабрика кристалізації
+tile.PRC.Ultimate.Factory=Абсолютна фабрика під тиском
+tile.Oxidizer.Ultimate.Factory=Абсолютна фабрика окислення
+tile.Nucleosynthesizer.Ultimate.Factory=Абсолютна фабрика нуклеосинтезу
+tile.Washer.Ultimate.Factory=Абсолютна фабрика миття
+
+tile.Smelting.Creative.Factory=Творча плавильна фабрика
+tile.Enriching.Creative.Factory=Творча збагачувальна фабрика
+tile.Crushing.Creative.Factory=Творча дробильна фабрика
+tile.Compressing.Creative.Factory=Творча фабрика стискання
+tile.Combining.Creative.Factory=Творча об'єднувальна фабрика
+tile.Purifying.Creative.Factory=Творча очисна фабрика
+tile.Injecting.Creative.Factory=Творча ін'єкційна фабрика
+tile.Infusing.Creative.Factory=Творча фабрика наповнення
+tile.Sawing.Creative.Factory=Творча розпилювальна фабрика
+tile.Farm.Creative.Factory=Творча сільськогосподарська фабрика
+tile.Stamping.Creative.Factory=Творча штампувальна фабрика
+tile.Rolling.Creative.Factory=Творча прокатна фабрика
+tile.Brushed.Creative.Factory=Творча волочильна фабрика
+tile.Turning.Creative.Factory=Творча токарна фабрика
+tile.Alloy.Creative.Factory=Творча фабрика сплавів
+tile.Extractor.Creative.Factory=Творча екстракційна фабрика
+tile.Separator.Creative.Factory=Творча сепараційна фабрика
+tile.Recycler.Creative.Factory=Творча фабрика переробки
+tile.Dissolution.Creative.Factory=Творча фабрика розчинення
+tile.Crystallizer.Creative.Factory=Творча фабрика кристалізації
+tile.PRC.Creative.Factory=Творча фабрика під тиском
+tile.Oxidizer.Creative.Factory=Творча фабрика окислення
+tile.Nucleosynthesizer.Creative.Factory=Творча фабрика нуклеосинтезу
+tile.Washer.Creative.Factory=Творча фабрика миття
+
+item.cardboard_helmet.name=Картонний шолом
+item.cardboard_chestplate.name=Картонний нагрудник
+item.cardboard_leggings.name=Картонні штани
+item.cardboard_boots.name=Картонні черевики
+tooltip.holdForDescription=Опис
+item.mekanism.cardboard_armor.tooltip.summary=Спорядження для збільшення стилю та скритності.
+item.mekanism.cardboard_armor.tooltip.condition1=Коли вдягнено повний набір
+item.mekanism.cardboard_armor.tooltip.behaviour1=Присядьте, щоб активувати непомітне маскування.
+
+mekanism.gui.slot.power=Слот енергії
+mekanism.gui.slot.power.tooltip=Сюди можна помістити енергетичні предмети (куби, планшети, редстоун) для живлення.
+mekanism.gui.slot.input=Слот входу
+mekanism.gui.slot.input.tooltip=Сюди можна помістити різні предмети/гази/рідини.
+mekanism.gui.slot.extra=Додатковий слот
+mekanism.gui.slot.extra.tooltip=Використовується для розміщення другого типу матеріалу, необхідного для роботи.
+mekanism.gui.slot.output=Слот виходу
+mekanism.gui.slot.output.tooltip=Використовується для виведення різних предметів/газів/рідин.
+
+tooltip.mekanism.warning=Увага:
+tooltip.mekanism.note=Примітка:
+tooltip.mekanism.note.cardboard=Деякі моди змінили параметри колізії, що може спричинити проблеми з маскуванням після присідання.
+
+item.dosimeter.name=Дозиметр
+item.geiger_counter.name=Лічильник Гейгера
+gui.mekanism.radiation_exposure=Вплив радіації:
+gui.mekanism.radiation_dose=Доза радіації:
+
+sound_event.mekanism.item.geiger_elevated=Підвищені кліки лічильника Гейгера
+sound_event.mekanism.item.geiger_fast=Постійні кліки лічильника Гейгера
+sound_event.mekanism.item.geiger_medium=Кліки лічильника Гейгера
+sound_event.mekanism.item.geiger_slow=Повільні кліки лічильника Гейгера
+
+item.hazmat_mask.name=Маска хімзахисту
+item.hazmat_gown.name=Халат хімзахисту
+item.hazmat_pants.name=Штани хімзахисту
+item.hazmat_boots.name=Черевики хімзахисту
+
+death.attack.mekanism.radiation=%s помер від радіаційного отруєння.
+death.attack.mekanism.radiation.player=%s помер від радіаційного отруєння під час спроби втечі від %s.
+death.attack.mekanism.smartattackdamage=%s помер від автоатаки по площі.
+death.attack.mekanism.smartattackdamage.player=%s убитий автоатакою по площі %s під час спроби втечі від %s.
+
+chemical.mekanism.attribute.radiation= - Радіоактивність:
+
+tile.SuperFumo.name=Супер ФуМо
+mekanism.module.info=За допомогою станції модифікації модулі можна встановлювати на елементи MekaSuit та Meka-Tool.
+
+item.mekafishingrod.name=Мека-вудка
+
+module.mekanism.fishing_collecting_unit=Модуль підводного збору
+item.module_fishing_collecting_unit.name=Модуль підводного збору
+description.mekanism.fishing_collecting_unit=Збільшує удачу під час риболовлі
+module.mekanism.fishing_speed_unit=Модуль приманки
+item.module_fishing_speed_unit.name=Модуль приманки
+description.mekanism.fishing_speed_unit=Збільшує швидкість риболовлі
+module.mekanism.fishing_intelligent_unit=Модуль розумної риболовлі
+item.module_fishing_intelligent_unit.name=Модуль розумної риболовлі
+description.mekanism.fishing_intelligent_unit=Автоматично витягує та закидає вудку при вилові риби
+module.mekanism.fishing_multiple_unit=Модуль множинного вилову
+item.module_fishing_multiple_unit.name=Модуль множинного вилову
+description.mekanism.fishing_multiple_unit=При успішній риболовлі можна зловити кілька предметів або риб.
+
+# Fission reactor GUI
+gui.activate=Активувати
+gui.scram=Аварійна зупинка (SCRAM)
+gui.stats=Статистика
+gui.fissionReactorStats=Статистика реактора поділу
+gui.fissionHeatStatistics=Статистика тепла
+gui.fissionFuelStatistics=Статистика палива
+gui.surfaceArea=Площа поверхні
+gui.boilEfficiency=Ефективність кипіння
+gui.fuelAssemblies=Збірки палива
+gui.maxBurnRate=Макс. швидкість спалювання
+gui.currentBurnRate=Поточна швидкість спалювання
+gui.setRateLimit=Встановити ліміт швидкості
+gui.fissionHeatGraph=Графік тепла
+tooltip.remove_all_modules=Утримуйте Shift, щоб видалити всі встановлені модулі вибраного типу
+button.mekanism.confirm=Підтвердити
+
+item.module_laser_cutter_unit.name=Модуль лазерного різака
+description.mekanism.laser_cutter_unit=Дозволяє використовувати Мека-інструмент як ніж
+
